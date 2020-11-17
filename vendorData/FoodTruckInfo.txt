@@ -1,0 +1,253 @@
+Restaurant Name: Da Spot
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg
+
+Hours: M-F (currently unavailable)
+
+Description:Da Spot Health Foods & Juices offers diverse, healthy and affordable cuisine with a unique take on tasty dishes from around the world. Da Spot specializes in Mediterranean and North African food with vegan and specialty meat options that can be certified halal or kosher. Offering imaginative cuisine in exotic styles of Egyptian, Greek, French, Italian, Indian, Thai, Malaysian, Ethiopian, American, Hawaiian, Japanese, Chinese, Korean, Pacific Rim and fusion cooking.
+
+Da Spot’s menu also features over 15 combinations of different fruit smoothies.
+
+Menu: 
+[
+  Sweet Dream : [Strawberries, Haupia, Sorbet, Soymilk],
+  DaKine : [Strawberries, Bananas, Lilikoi Sorbet, Passion Orange Juice],
+  StarBerry : [Strawberries, Lychee Sorbet, Guava Juice],
+  StrawberryPotion : [Strawberries, Bananas, Soymilk],
+  Sweet Dream : [Strawberries, Haupia, Sorbet, Soymilk],
+  VeryBerryGood : [Strawberries, Mixberries, Bananas, Grape Juice],
+  HomeGrown : [Strawberries, Mixberries, Guava Sorbet, Guava Juice],
+  Grenade : [Strawberries, Pomegranate Sorbet, Grape Juice],
+  SouthBerry : [Strawberries, Mixberries, Acai & Haupia Sorbet, Guava Juice, Soymilk],
+  AlohaBerry : [Mixberries, Bananas, Haupia Sorbet, Guava Juice, Soymilk],
+  Kalakauan : [Mixberries, Bananas, Pomegranate Sorbet, Apple Juice],
+  CocoOno : [Bananas, Haupia Sorbet, Soymilk],
+  LocoStyle : [Bananas, Acai Sorbet, Soymilk],
+  MangoTango : [Mangoes, Bananas, Lilikoi Sorbet, Passion Orange & Lemon Juice],
+  Mangolicious : [Mangoes, Lychee Sorbet, Passion Orange Juice],
+  DaMango : [Mangoes, Haupia Sorbet, Orange Juice],
+  Pinaco : [Pineapples, Haupia Sorbet, Passion Orange Juice],
+  PineParadise : [Pineapples, Strawberries, Bananas, Apple Juice],
+  OrangeSunset : [Peaches, Lychee Sorbet, Passion Orange Juice],
+  LiquidSunshine: [Peaches, Pears, Acai Sorbet, Apple Juice],
+  SunnySunrise: [Pears, Pineapples, Lilikoi Sorbet, Orange Juice],
+  LocoCoco: [Pears, Haupia Sorbet, Soymilk],
+  DaKeez: [Kiwis, Strawberries, Bananas, Apple Juice],
+  WaikiKiwi: [Kiwi, Mango, Guava Sorbet, Guava Juice],
+  MochaJava: [Mocha, Haupia Sorbet, Brewed Coffee, Soymilk],
+  Chocolatta: [Chocolate, Bananas, Soymilk],
+  PeanutButta: [Peanut Butter, Haupia Sorbet, Soymilk],
+  Queens: [Peanut Butter, Bananas, Acai Sorbet, Soymilk],
+]
+-optional info: Create your own mix from these ingredients
+Menu(cont):
+[
+  Fruits: [Strawberries, Mixberries, Bananas, Mangoes, Pineapples, Peaches, Pears or Kiwis],
+  Sorbets: [Haupia, Lilikoi, Lychee, Pomegranate, Acai or Guava],
+  Juices: [Passion Orange, Guava, Orange, Apple, Grape or Soymilk],
+]
+
+Address: Saunders Hall (UHM)
+
+------------------------------------------
+
+Restaurant Name: Govinda's
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/govindas_big-1024x375.jpg
+
+Hours: M-F (currently unavailable)
+
+Description: Want a sustainable selection for lunch? Try Govinda’s, which offers a 100% pure vegetarian menu, with items low in cholesterol and mostly organic. They strive to bring you a healthy and delicious meal at the best possible price.
+Govinda’s uses top quality produce and only the finest quality sea salt. All of the rice, grains, beans, tofu, sugar and flour are certified organic. Their menu never contains any meat or meat by-products, fish, eggs, MSG, iodized salt, preservatives, hydrogenated oils, or artificial colors or flavors.
+
+Menu(Daily Specials): 
+[
+  Monday : [Kabocha Coconut Curry, Cauliflower Pea Curry, Khichri, Strawberry Halava],
+  Tuesday: [Kofta Cabbage, Coconut Curry, Eggplant Potato, Curry, Khichri, Cranberry Orange, Halava],
+  Wednesday: [Yellow Thai Curry, Chickpea Spinach Curry, Khichri, Peanut Butter Halava],
+  Thursday: [Red Thai Curry, String Bean Potato Curry, Khichri, Pineapple Coconut Halava],
+  Friday: [Chili Beans, Cabbage Potato Curry, Khichri, Mixed Berry Halava],
+]
+Menu(Plates):
+[
+  Mini Plate: [One entrée, rice, halawa and salad or soup],
+  Full Plate: [Two Entrées, rice, soup, salad and halawa],
+]
+Menu(Ala-Carte Items):
+[
+  Halawa,
+  Mung Bean Soup (V, GF),
+  Brown Rice (V, GF),
+  Salad (V, GF),
+  Daily Special Entrée (V, GF),
+  Khichri (GF)
+]
+Menu(Beverages):
+[
+  12-20oz. : Ginger Mint Lemonade,
+]
+Address: Sustainability Courtyard (UHM)
+
+------------------------------------------
+
+Restaurant Name: Hot Tacos
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg
+
+Hours: M-F(currently unavailable)
+
+Description:Hot Tacos offers authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas with meat options like steak, chicken, marinated pork, and shredded beef. They offer a la carte options or lunch plates that include beans and Spanish rice and other add on options like Chili Rellenos and Tamales.
+
+Menu:
+[
+  Sides: [Rice and Beans],
+  Choice of Meats: [Carne Asada (steak), Al Pastor (marinated pork), Lengua (beef tongue), Birria (slow cooked beef stew with Mexican spices)],
+],
+[
+  Corn Tacos: [Choice of meat, garnished with fresh chopped cilantro and onions],
+  12″ Burrito: [Flour tortilla with choice of meat, whole pinto beans, seasoned Mexican rice, with fresh chopped cilantro and onions, cheese, and sour cream. Add guacamole for extra.],
+  Quesadilla: [Strips of folded 12″ flour tortilla with melted Mexican cheese, fresh chopped cilantro, and onions],
+  Tamales: [Cooked in corn husks, prepared with corn meal dough filled with a savory filling],
+  Chile Rellenos: [Poblano pepper stuffed with queso fresco, topped with red or green sauce, melted Monterey cheese, sour cream, cilantro, and onions. Served with rice, beans, and two tortillas.],
+]
+
+Address:
+Kennedy Theatre (Monday), Post (Tuesday), Kuykendall (Wednesday), Architecture (Thursday), Korean Studies (Friday)
+
+------------------------------------------
+
+Restaurant Name: Kamitoku Ramen
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/kamitoku_big-1024x375.jpg
+
+Hours: M-F(currently unavailable)
+
+Description: Kamitoku Ramen specializes in a Tottori-style beef bone ramen.
+
+Menu:
+[
+  Ramen: [Beefy Wild, Beefy Lite, Beefy Miso, Beefy Spicy, Special Ramen],
+  Sides: [Prok Gyoza],
+  Extra Toppings: [Menma, Green Onion, Tamago, Moyashi, Beef Chuck],
+  Drinks: [Soft Drinks, Bottled Water]
+]
+
+Address: POST (Monday, Tuesday, Thursday, and Friday) and Krauss (Wednesday)
+
+-------------------------------------------
+
+Restaurant Name: Ono Seadfood
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/onoseafood_big-1024x375.jpg
+
+Hours: M-F(currently unavailable)
+
+Description: Traditional super ono ahi & tako poke; always fresh, premium ahi — never frozen! Made to order poke by the pound & poke bowls.
+
+Pre-Menu Description:
+
+"Choice of:
+White or brown rice
+One or two poke style
+Regular or large size bowl
+Furikake on top
+Water or juice
+Poke by weight"
+
+Menu:
+[
+  #1: [Shoyu Ahi],
+  #2: [Shoyu Tako],
+  #3: [Hawaiian Style Ahi],
+  #4: [Hawaiian Style Tako],
+  #5: [Miso Ahi],
+  #6: [Miso Tako],
+  #7: [Spicy Ahi],
+  #8: [Wasabi Ahi],
+]
+
+Address: Krauss Hall
+
+-------------------------------------------
+
+
+Restaurant Name: Sistah Truck
+
+Landing Banner(url): https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/sistah_big.jpg
+
+Hours: M-F(currently unavailable)
+
+Description: Sistah Truck serves Korean-inspired local cuisine. Daily menu plate lunches include loco moco, chicken katsu, and Korean-style shoyu chicken. They also serve grab-and-go dishes like bibimbap, gyoza and kimchi bowls. Vegetarian options are available.
+
+Menu:
+[
+  Daily Specials(served with rice, corn salad, coleslaw): [Steak Plate, Wagyu LocoMoco Plate, Chicken Katsu Plate, Shoyu Chicken Plate, Fish Jun Plate, Spicy Pork Plate],
+  Bowls(served with sunnyside up egg): [Kalbi Bibimbap Bowl, Bibimbap Bowl, Teriyaki Gyoza Bowl, Fried Rice Bowl],
+  Other: [Wagyu Mushroom Cheeseburger with French Fries, Garlic Butter Fries (fries upgrade)],
+  Side Orders: [Teriyaki Gyoza (7 pcs), French Fries, Garlic Butter French Fries, Homemade Kimchi],
+  Drinks: [Water, Soda],
+
+Address: Rotating between POST, Kuykendall, Architecture, Korean Studies, and Kennedy Theatre (Days:unknown)
+
+-------------------------------------------
+[New Restaurant Info Template]
+
+Restaurant Name:
+
+Landing Banner(url): 
+
+Hours:
+
+Description:
+
+Menu:
+[
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+  : [],
+]
+-optional info:
+
+Address:
+
+-------------------------------------------
+
+Contact Us (UHM Food Services):
+[
+  Telephone: (808) 956-4798
+  Email: food@hawaii.edu
+]
+
+Social Media:
+[
+  Instagram: https://www.instagram.com/UHMFoodSvc,
+  Twitter: https://www.twitter.com/UHMFoodSvc,
+  Facebook: https://www.facebook.com/UHMFoodSvc,
+]
+
