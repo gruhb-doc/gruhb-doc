@@ -20,7 +20,7 @@ class Footer extends React.Component {
                 <a>Community</a>
               </Grid.Column>
               <Grid.Column>
-                <a>Made by [change this in imports/ui/components/Footer.jsx]</a>
+                <a>GrUHb(2020)©</a>
                 <a href="https://github.com/gruhb-doc/gruhb-doc"> Github API</a>
               </Grid.Column>
             </Grid.Row>
