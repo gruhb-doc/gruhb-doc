@@ -1,0 +1,231 @@
+Pizza Hut Express (Campus Center)
+	-Address: 
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-10AM - 2PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-No
+	-Delivery:
+		-No
+	-Cuisine:
+		-Pizza
+
+Stir Fresh (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-10AM - 2PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-Yes
+	-Delivery:
+		-No
+	-Cuisine:
+		-Asian Fusion
+	
+
+Aja Sushi & Bento (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-6:30AM - 4PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-No
+	-Delivery:
+		-No
+	-Cuisine:
+		-Sushi Bars
+
+Jamba Juice (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-8AM - 4PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-No
+	-Delivery:
+		-Yes
+	-Cuisine:
+		-Juice Bars & Smoothies
+
+Starbucks (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Thursday:
+			-7AM - 7PM
+		-Friday:
+			-7AM - 6PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-No
+	-Delivery:
+		-No
+	-Cuisine:
+		-Coffee & Tea
+
+Subway (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-2.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Thursday:
+			-7AM - 7PM
+		-Friday:
+			-7AM - 6PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-No
+	-Delivery:
+		-No
+	-Cuisine:
+		-Sandwiches, Fast Food
+
+Simply To Go (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-4.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-8AM - 3PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $$
+	-Takeout:
+		-No
+	-Dine-In:
+		-No
+	-Delivery:
+		-No
+	-Cuisine:
+		-Bagels, Convenience Stores, Donuts
+
+Campus Center Food Court (Campus Center)
+	-Address:
+		-2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3.5
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Friday:
+			-11AM - 2PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-Yes
+	-Delivery:
+		-No
+	-Cuisine:
+		-Cafes
+
+Ba-Le (Campus Center)
+	-Address:
+		-2445 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822
+	-Rating:
+		-3
+	-Photos:
+		-**MUST GRAB ON OUR OWN**
+	-Hours:
+		-Monday-Thursday:
+			-10AM - 8PM
+		-Friday:
+			-10AM - 9PM
+		-Saturday-Sunday:
+			-CLOSED
+	-Menu:
+		-**MUST GRAB ON OUR OWN***
+	-Cost:
+		-YELP: $
+	-Takeout:
+		-Yes
+	-Dine-In:
+		-Yes
+	-Delivery:
+		-No
+	-Cuisine:
+		-Sandwiches, Vietnamese
