@@ -36,6 +36,10 @@
   font-size: 2rem;
 }
 
+.nav-header-mid {
+  color: #53d480;
+}
+
 @media only screen and (max-width: 663px) {
   #root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
     font-size: 9rem;
