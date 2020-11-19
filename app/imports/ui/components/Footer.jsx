@@ -21,7 +21,7 @@ class Footer extends React.Component {
                     <Menu.Item>Community</Menu.Item>
                   </Grid.Column>
                   <Grid.Column>
-                    <Menu.Item>GrUHb (2020)©</Menu.Item>
+                    <Menu.Item>GRUHB (2020)©</Menu.Item>
                     <Menu.Item href="https://github.com/gruhb-doc/gruhb-doc">Github API</Menu.Item>
                   </Grid.Column>
                 </Grid.Row>

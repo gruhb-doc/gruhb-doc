@@ -1,6 +1,6 @@
 .landing-bg-img {
   background:
-      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(images/landing_bg.jpg),
       no-repeat center center;
   background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .landing-text {
-  color: #53d480;
+  color: #56ff91;
   font-size: 2rem;
 }
 
