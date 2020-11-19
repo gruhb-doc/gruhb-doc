@@ -16,7 +16,7 @@ class Footer extends React.Component {
                     <Menu.Item>Contact Us</Menu.Item>
                   </Grid.Column>
                   <Grid.Column>
-                    <Menu.Item>Vendors</Menu.Item>
+                    <Menu.Item>Feeling Lucky?</Menu.Item>
                     <Menu.Item>Suggestions</Menu.Item>
                     <Menu.Item>Community</Menu.Item>
                   </Grid.Column>
