@@ -52,6 +52,18 @@
   transition: all 0.2s linear;
 }
 
+.signup-bg-img {
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(images/landing_bg.jpg),
+            no-repeat center center;
+    background-size: cover;
+    height: 1040px;
+    width: 100%;
+    margin-top: -12px;
+    transition: all 0.2s linear;
+}
+
 
 #signup-form {
   border: 1px solid red !important;
