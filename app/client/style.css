@@ -40,6 +40,35 @@
   color: #53d480;
 }
 
+.signup-bg-img {
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(images/landing_bg.jpg),
+      no-repeat center center;
+  background-size: cover;
+  height: 1040px;
+  width: 100%;
+  margin-top: -12px;
+  transition: all 0.2s linear;
+}
+
+#signup-form {
+  border: 1px solid red !important;
+}
+
+#signup-form-submit.ui.button {
+  color: white;
+  background-color: #53d480;
+}
+
+#signup-form-email {
+  border: 1px solid #53d480 !important;
+}
+
+#signup-form-password {
+  border: 1px solid #53d480 !important;
+}
+
 @media only screen and (max-width: 663px) {
   #root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
     font-size: 9rem;

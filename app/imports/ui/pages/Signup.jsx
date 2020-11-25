@@ -39,15 +39,25 @@ class Signup extends React.Component {
       return <Redirect to={from}/>;
     }
     return (
+        <div className="signup-bg-img">
       <Container id="signup-page">
         <Grid textAlign="center" verticalAlign="middle" centered columns={2}>
           <Grid.Column>
-            <Header as="h2" textAlign="center">
-              Register your account
+            {this.state.error === '' ? (
+                ''
+            ) : (
+                <Message
+                    error
+                    header="Registration was not successful"
+                    content={this.state.error}
+                />
+            )}
+            <Header as="h2" textAlign="center" inverted>
+              Register to GR<span className="nav-header-mid">UH</span>B
             </Header>
             <Form onSubmit={this.submit}>
               <Segment stacked>
-                <Form.Input
+                <Form.Input className="signup-form-input"
                   label="Email"
                   id="signup-form-email"
                   icon="user"
@@ -68,23 +78,16 @@ class Signup extends React.Component {
                   onChange={this.handleChange}
                 />
                 <Form.Button id="signup-form-submit" content="Submit"/>
+                <div>
+                  Already signed up with GR<span className="nav-header-mid">UH</span>B?
+                  <Link to="/signin"> Sign up</Link>
+                </div>
               </Segment>
             </Form>
-            <Message>
-              Already have an account? Login <Link to="/signin">here</Link>
-            </Message>
-            {this.state.error === '' ? (
-              ''
-            ) : (
-              <Message
-                error
-                header="Registration was not successful"
-                content={this.state.error}
-              />
-            )}
           </Grid.Column>
         </Grid>
       </Container>
+        </div>
     );
   }
 }
