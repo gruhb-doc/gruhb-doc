@@ -42,15 +42,25 @@ export default class Signin extends React.Component {
     }
     // Otherwise return the Login form.
     return (
+        <div className="signin-bg-img">
       <Container id="signin-page">
         <Grid textAlign="center" verticalAlign="middle" centered columns={2}>
           <Grid.Column>
-            <Header as="h2" textAlign="center">
-              Login to your account
+            {this.state.error === '' ? (
+                ''
+            ) : (
+                <Message
+                    error
+                    header="The email address or password you entered is incorrect."
+                    content={this.state.error}
+                />
+            )}
+            <Header as="h2" textAlign="center" inverted>
+              Login to GR<span className="nav-header-mid">UH</span>B
             </Header>
             <Form onSubmit={this.submit}>
-              <Segment stacked>
-                <Form.Input
+              <Segment stacked >
+                <Form.Input className="signin-form-input"
                   label="Email"
                   id="signin-form-email"
                   icon="user"
@@ -70,24 +80,17 @@ export default class Signin extends React.Component {
                   type="password"
                   onChange={this.handleChange}
                 />
-                <Form.Button id="signin-form-submit" content="Submit"/>
+                <Form.Button className='signin-submit' id="signin-form-submit" content="Log In" />
+                <div>
+                New to GR<span className="nav-header-mid">UH</span>B?
+                <Link to="/signup"> Sign up</Link>
+                </div>
               </Segment>
             </Form>
-            <Message>
-              <Link to="/signup">Click here to Register</Link>
-            </Message>
-            {this.state.error === '' ? (
-              ''
-            ) : (
-              <Message
-                error
-                header="Login was not successful"
-                content={this.state.error}
-              />
-            )}
           </Grid.Column>
         </Grid>
       </Container>
+          </div>
     );
   }
 }

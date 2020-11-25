@@ -40,7 +40,7 @@
   color: #53d480;
 }
 
-.signup-bg-img {
+.signin-bg-img {
   background:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(images/landing_bg.jpg),
@@ -52,11 +52,21 @@
   transition: all 0.2s linear;
 }
 
+
 #signup-form {
   border: 1px solid red !important;
 }
 
 #signup-form-submit.ui.button {
+    color: white;
+  background-color: #53d480;
+}
+
+#signin-form {
+  border: 1px solid red !important;
+}
+
+#signin-form-submit.ui.button {
   color: white;
   background-color: #53d480;
 }
@@ -66,6 +76,13 @@
 }
 
 #signup-form-password {
+    border: 1px solid #53d480 !important;
+}
+#signin-form-email {
+  border: 1px solid #53d480 !important;
+}
+
+#signin-form-password {
   border: 1px solid #53d480 !important;
 }
 
