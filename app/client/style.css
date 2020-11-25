@@ -52,6 +52,16 @@
   transition: all 0.2s linear;
 }
 
+
+#signup-form {
+  border: 1px solid red !important;
+}
+
+#signup-form-submit.ui.button {
+    color: white;
+  background-color: #53d480;
+}
+
 #signin-form {
   border: 1px solid red !important;
 }
@@ -61,6 +71,13 @@
   background-color: #53d480;
 }
 
+#signup-form-email {
+  border: 1px solid #53d480 !important;
+}
+
+#signup-form-password {
+    border: 1px solid #53d480 !important;
+}
 #signin-form-email {
   border: 1px solid #53d480 !important;
 }
