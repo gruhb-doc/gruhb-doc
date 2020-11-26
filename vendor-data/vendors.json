@@ -7,12 +7,35 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "10AM - 2PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Personal Pan Pizza",
+              "items": [
+                "Cheese Pizza", "Italian Sausage Pizza", "Pepperoni Pizza", "Supreme Pizza"
+              ]
+            },
+            {
+              "type": "Tuscani Pasta",
+              "items": [
+                "Chicken Alfredo Pasta", "Meaty Marinara Pasta"
+              ]
+            },
+            {
+              "type": "Snacks & Sauces",
+              "items": [
+                "Breadsticks", "Dipping Sauce", "6 Pc Baked Wings"
+              ]
+            },
+            {
+              "type": "Beverages",
+              "items": "Fountain Drink"
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "No",
@@ -24,12 +47,37 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "10AM - 2PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Poke Bowls",
+              "items": [
+                "Spicy Ahi Poke Bowl", "Shoyu Ahi Poke Bowl", "Combo Bowl", "Tofu Poke Bowl", "California Poke Bowl", "Limu Poke"
+              ]
+            },
+            {
+              "type": "Stir Fry",
+              "items": [
+                "Beef Stir-Fry Bowl", "Chicken Stir-Fry Bowl", "Tofu Stir-Fry Bowl", "Vegan Sausage Stir-Fry Bowl", "Veggie Stir Fry Bowl"
+              ]
+            },
+            {
+              "type": "Sides",
+              "items": [
+                "Fresh Fruit Salad", "Saimin", "Saimin Combo #1", "Saimin Combo #2", "Saimin Combo #3"
+              ]
+            },
+            {
+              "type": "Drinks",
+              "items": [
+                "Fountain Drink", "Aloha Maid Juices", "Royal Mills Cappuccino", "Body Armor Sports Water", "Body Armor Super Drink", "Arizona Green Tea", "Monster Energy", "Diet Coke", "Coke Classic", "Oi Ocha Tea", "Bang Energy Drink", "Diamond Head Water 1.5L", "Oolong Tea", "Sparkling Ice Drink"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "Yes",
@@ -41,12 +89,43 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "6:30AM - 4PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Appetizers",
+              "items": [
+                "Shrimp Tempura", "Spam Musubi", "Onigiri", "Korean Sushi", "Fried Mandoo", "Inari"
+              ]
+            },
+            {
+              "type": "Bento",
+              "items": [
+                "Mini Bento", "2 Choice Bento", "3 Choice Bento", "AjaPac Bento", "Spam Musubi Garlic Chicken Combo"
+              ]
+            },
+            {
+              "type": "Ala Carte",
+              "items": [
+                "Garlic Chicken", "Jap Chae", "Shoyu Chicken A La Carte", "Korean Spicy Wings A La Carte", "Pork Adobo A La Carte", "Bulgogi A La Carte", "Furikake Panko Crunchy Fish A La Carte", "Tofu Stir Fry A La Carte", "Chicken Ninshime A La Carte"
+              ]
+            },
+            {
+              "type": "Ala Carte Fish Filets",
+              "items": [
+                "Grilled Salmon Filet", "Grilled Mackerel -Saba"
+              ]
+            },
+            {
+              "type": "Vegetable Sides",
+              "items": [
+                "Side Vegetables Small", "Side Vegetables Large"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "No",
@@ -58,12 +137,67 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "8AM - 4PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Secret Menu Smoothies",
+              "items": [
+                "Chocolate Cove Strawberry", "Citrus Squeeze", "Butter Finger", "Orchard Oasis", "Orange Berry Blitz", "Pineapple Dream", "Reeses Pieces", "Sour Gummy", "Strawberry Energizer", "Strawberry Dream", "Sunrise Strawberry", "Raspberry Dream", "Lime Dream", "Nutter Butter", "Strawberry Shortcake", "Skittles", "Sour Patch", "Blue Fruitty Pebbles", "Blue Gummy", "Fruitty Pebbles", "Pink Gummy", "Pink Starburst", "Red Gummy", "White Gummy", "Bright Eyed Blueberry", "Strawberry Mochi w/ soy", "Peach Perfection", "Koko Head", "POG Dream"
+              ]
+            },
+            {
+              "type": "In Season",
+              "items": [
+                "Blackberry Smoothie", "Peachy Greens Smoothie", "Matcha Bowl"
+              ]
+            },
+            {
+              "type": "Classic Smoothies",
+              "items": [
+                "Strawberries Wild", "Mango-a-Go-Go", "Razzmatazz", "Tropical Dragon", "Peach Pleasure", "Aloha Pineapple", "Banana Berry", "Caribbean Passion", "Gotta Guava", "Strawberry Surf Rider"
+              ]
+            },
+            {
+              "type": "Creamy Treat Smoothies",
+              "items": [
+                "Orange Dream Machine", "Peanut Butter Moo'd", "Chocolate Moo'd", "Matcha Green Tea Blast", "Bethany Dream"
+              ]
+            },
+            {
+              "type": "Fruit & Veggie Smoothies",
+              "items": [
+                "Apple 'n Greens", "Mango Chia Omega", "Greens 'N Ginger", "Groovy Guava", "Mega Mango", "Strawberry Dragon", "Strawberry Whirl", "Peach Perfection", "5 Fruit Frenzy"
+              ]
+            },
+            {
+              "type": "Functional Smoothies",
+              "items": [
+                "Acai Super-Antioxidant", "Amazing Greens", "Kale-Ribbean Breeze", "PB Chocolate Love", "Orange C-Booster", "Protein Berry Workout w/ soy protein", "Protein Berry Workout w/ Whey protein", "PB 'N Jealous"
+              ]
+            },
+            {
+              "type": "Energy Bowls",
+              "items": [
+                "Chunky Strawberry Bowl", "Chocolate Strawberry Bowl", "Pitaya Primo Bowl", "Hawaiian Acai Bowl", "PB Wow Cacao Bowl", "Açai Primo Bowl", "Matcha Bowl"
+              ]
+            },
+            {
+              "type": "Fresh Squeezed Juice",
+              "items": [
+                "Orange Carrot Juice", "Orange Berry Antioxidant", "Orange Juice", "Triple Revitalizer", "Tropical Kick-Start", "Kale Power Orange", "Dragonberry Juice", "Carrot Juice"
+              ]
+            },
+            {
+              "type": "Grab 'N Go Breakfast",
+              "items": [
+                "Cheddar Tomato Twist", "Sourdough Parmesan Pretzel", "Apple Cinnamon Pretzel", "Sweet Belgian Waffle", "Banana Nut Bread", "3 Low Fat Oaties", "Four Cheese Flatbread", "Sweet & Spicy Chicken Flatbread", "Petite Ham & Cheese Croissant", "Roasted Tomato Spinach & Feta", "Turkey Sausage, Roasted Red Pepper & Gouda", "Bacon, Roasted Tomato Spinach & Feta", "Turkey Pesto Egg Melt", "Turkey Sausage Egg & Cheese Wrap", "Spinach Egg & Cheese Wrap"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "No",
@@ -75,13 +209,104 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToThurs": "7M - 7PM",
             "friday": "7AM - 6PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Seasonal Beverages",
+              "items": [
+                "Almondmilk Honey Flat White", "Iced Caramel Cloud Macchiato", "Iced Cocoa Cloud Macchiato", "Iced Cinnamon Cloud Macchiato", "Cold Brew with Salted Honey Cold Foam", "Iced Pineapple Matcha Coconutmilk Latte", "Caramel Brulee Latte", "Iced Caramel Brulee Latte", "Caramel Brulee Frappuccino", "Caramel Brulee Creme Frappuccino", "Toasted White Chocolate Mocha Frappuccino", "Toasted White Chocolate Mocha Creme Frappuccino", "Chestnut Praline Frappuccino", "Chestnut Praline Crème Frappuccino", "Salted Caramel Mocha", "Salted Caramel Hot Chocolate", "Iced Vanilla Bean Coconutmilk Latte", "Salted Caramel Mocha Creme Frappuccino", "Iced Salted Caramel Mocha", "Salted Caramel Mocha Frappuccino", "Iced Cold Foam Cappuccino", "Iced Cold Foam Blonde Cappuccino", "Coconutmilk Mocha Macchiato", "Iced Pumpkin Spice Latte", "Pumpkin Flat White", "Pumpkin Spice Latte", "Caramel Ribbon Crunch Frappuccino", "Caramel Ribbon Crunch Creme Frappuccino", "Pumpkin Spice Frappuccino", "Pumpkin Spice Creme Frappuccino"
+              ]
+            },
+            {
+              "type": "Hot Espresso Beverages",
+              "items": [
+                "Flat White", "Caramel Macchiato", "Latte Machiatto", "Cinnamon Dolce Latte", "Caffe Mocha", "White Chocolate Mocha", "Skinny Cinnamon Dolce Latte", "Cinnamon Almondmilk Macchiato", "Hazelnut Mocha Coconutmilk Macchiato", "Caffe Latte", "Vanilla Latte", "Skinny Vanilla Latte", "Cappuccino", "Caffe Americano", "Espresso", "Espresso Macchiato", "Espresso Con Panna", "Cascara Latte"
+              ]
+            },
+            {
+              "type": "Iced Espresso Beverages",
+              "items": [
+                "Iced Coconutmilk Mocha Macchiato", "Blonde Doubleshot on Ice", "Starbucks Doubleshot On Ice", "Iced Caramel Macchiato", "Iced White Chocolate Mocha", "Iced Cinnamon Dolce Latte", "Iced Skinny Cinnamon Dolce Latte", "Iced Mocha", "Iced Cinnamon Almondmilk Macchiato", "Iced Hazelnut Mocha Coconutmilk Macchiato", "Iced Latte", "Iced Vanilla Latte", "Iced Skinny Vanilla Latte", "Iced Cappuccino", "Iced Americano", "Iced Latte Machiatto", "Iced Espresso"
+              ]
+            },
+            {
+              "type": "Brewed Coffee, Tea & More",
+              "items": [
+                "Freshly Brewed Coffee", "Caffe Misto", "Teavana Brewed Tea", "Citrus Defender", "Honey Citrus Mint Tea", "Teavana® London Fog Tea Latte", "Steamed Milk", "Matcha Green Tea Latte", "Classic Chai Latte", "Hot Chocolate", "White Hot Chocolate", "Caramel Apple Spice"
+              ]
+            },
+            {
+              "type": "Iced Coffee & Iced Tea",
+              "items": [
+                "Iced Coffee", "Narino 70 Cold Brew", "Vanilla Sweet Cream Cold Brew", "Cold Foam Cold Brew", "Salted Cream Cold Foam Cold Brew", "Cold Foam Cascara Cold Brew", "Iced Classic Chai Latte", "Iced Matcha Green Tea Latte", "Teavana Shaken Iced Tea", "Teavana Iced Tea Lemonade", "Iced Peach Green Tea", "Iced Peach Green Tea Lemonade", "Iced Guava White Tea", "Iced Guava White Tea Lemonade"
+              ]
+            },
+            {
+              "type": "Frappucinos",
+              "items": [
+                "Strawberry Frappuccino Blended Crème", "Double Chocolaty Chip Frappuccino", "Green Tea Crème Frappuccino", "Café Vanilla Frappuccino", "Vanilla Bean Creme Frappuccino", "Espresso Frappuccino", "Caramel Frappuccino", "Mocha Frappuccino", "White Mocha Frappuccino", "Java Chip Frappuccino", "Coffee Frappuccino", "Chai Crème Frappuccino"
+              ]
+            },
+            {
+              "type": "Starbucks Refreshers",
+              "items": [
+                "Strawberry Acai Refreshers", "Strawberry Acai Refreshers Lemonade", "Pink Drink", "Violet Drink", "Very Berry Refreshers", "Mango Dragonfruit Refreshers", "Mango Dragonfruit Refreshers Lemonade", "Dragon Drink", "Kiwi Starfruit Refresher", "Kiwi Starfruit Lemonade Refresher", "Star Drink"
+              ]
+            },
+            {
+              "type": "Bottled Water",
+              "items": [
+                "Ethos Water"
+              ]
+            },
+            {
+              "type": "Seasonal Bakery Items",
+              "items": [
+                "Cranberry Bliss Bar", "Cranberry Bliss Bar Tray", "Sugar Plum Cheese Danish", "Frosted Snowman Cookie"
+              ]
+            },
+            {
+              "type": "Breakfast",
+              "items": [
+                "Impossible Breakfast Sandwich", "Double Smoked Bacon, Cheddar & Egg", "Bacon & Gouda Breakfast Sandwich", "Slow Roasted Ham & Swiss Breakfast Sandwich", "Reduced Fat Turkey Bacon Sandwich", "Sausage & Cheddar Breakfast Sandwich", "Bacon Gruyere Egg Bites", "Egg White Egg Bites", "Ham & Cheddar Egg Bites"
+              ]
+            },
+            {
+              "type": "Lunch",
+              "items": [
+                "Chicken & Hummus Protein Box", "Chipotle Chicken Wrap", "Eggs & Cheese Protein Box", "PB&J Protein Box", "Cheese & Fruit Protein Box", "Chicken & Quinoa Protein Bowl"
+              ]
+            },
+            {
+              "type": "Sandwiches, Wraps & Paninis",
+              "items": [
+                "Turkey Pesto Panini", "Spinach & Feta Wrap", "Chicken Caprese", "Southwest Veggie Wrap", "Bacon, Sausage & Egg Wrap", "Crispy Grilled Cheese Sandwich"
+              ]
+            },
+            {
+              "type": "Bagels, Croissants, Muffins & Buns",
+              "items": [
+                "Everything Bagel", "Plain Bagel", "Blueberry Bagel", "Cinnamon Raisin Bagel", "Sprouted Grain Bagel", "Butter Croissant", "Chocolate Croissant", "Almond Croissant", "Ham & Cheese Croissant", "Blueberry Muffin"
+              ]
+            },
+            {
+              "type": "Scones, Donuts, Danishes & Cakes",
+              "items": [
+                "Pumpkin Bread", "Iced Lemon Pound Cake", "Banana Nut Bread", "Cheese Danish", "Old Fashioned Glazed Donut", "Blueberry Scone"
+              ]
+            },
+            {
+              "type": "Cookies, Brownies, Cake Pops & Bars",
+              "items": [
+                "Double Chocolate Chunk Brownie", "Birthday Cake Pop", "Chocolate Cake Pop"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "No",
@@ -93,13 +318,20 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "2.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToThurs": "7AM - 7PM",
             "friday": "7AM - 6PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Sandwiches",
+              "items": [
+                "Cheese Steak", "$5 6\" Fresh Value Meal", "Chicken & Bacon Ranch", "Italian B.M.T", "Sweet Onion Chicken Teriyaki", "Veggie Delight", "Turkey Breast", "Oven Roasted Chicken Breast", "Subway Club", "Turkey Breast & Ham", "Classic Tuna", "Sandwich Platters", "Breakfast Sandwich", "BLT (Bacon, Lettuce, Tomato)", "Chicken Parmesan", "Spicy Italian", "Wrap Platters"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "No",
@@ -111,12 +343,12 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "4.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "8AM - 3PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": "Currently Unavailable",
           "cost": "$$",
           "takeout": "No",
           "dineIn": "No",
@@ -128,12 +360,48 @@
           "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center",
           "rating": "3.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "11AM - 2PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Daily Plate Lunch",
+              "items": [
+                {
+                  "day": "Monday",
+                  "items": [
+                    "Pasta with Italian Sausage", "Pasta with Meatballs", "Pasta Combo with Italian Sausage and Meatballs", "Salmon with Basil Tapenade", "Chicken Marsala", "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
+                  ]
+                },
+                {
+                  "day": "Tuesday",
+                  "items": [
+                    "Kalua Pork Quesadillas", "Carne Asada Tacos", "Salmon Tacos", "Chicken Enchiladas"
+                  ]
+                },
+                {
+                  "day": "Wednesday",
+                  "items": [
+                    "BBQ Pulled Pork Sandwich with Sweet Potato Fries", "Broiled Pub Steak with Garlic and Mushrooms", "Cajun Seared Fresh Salmon", "BBQ Island Chicken"
+                  ]
+                },
+                {
+                  "day": "Thursday",
+                  "items": [
+                    "Roast Pork with Gravy", "Ribeye Steak with Fresh Onion Rings", "Fresh Island Catch with Lemon Butter Caper Sauce", "Baked Chicken Parmesan with Marinara", "Pasta with Clam Sauce", "Garlic Jumbo Shrimp Skewers"
+                  ]
+                },
+                {
+                  "day": "Friday",
+                  "items": [
+                    "Braised Pork with Mushroom Gravy", "Chicken Fried Steak with Country Gravy", "Fried Shrimp and French Fries", "Garlic Miso Chicken"
+                  ]
+                }
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "Yes",
@@ -145,13 +413,38 @@
           "address": "2445 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
           "campusLocation": "Campus Center (Near UH Manoa Recreational Center)",
           "rating": "3",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToThurs": "10AM - 8PM",
             "friday": "10AM - 9PM",
             "satToSun": "CLOSED"
           },
-          "menu": "***TO BE ADDED***",
+          "menu": [
+            {
+              "type": "Sandwiches",
+              "items": [
+                "Chicken Banh Mi", "Turkey Banh Mi", "Ham Banh Mi", "Tuna Banh Mi", "Tofu Banh Mi", "Lemongrass Chicken Banh Mi", "Pastrami Banh Mi", "Ham & Pate Banh Mi", "Turmeric Chicken Banh Mi", "Roast Beef Banh Mi", "Meatball Banh Mi", "Kalua Pork Banh Mi", "Nem Nuong Sandwich", "BBQ Pork Banh Mi", "BBQ Chicken Banh Mi", "Veggie Banh Mi", "Chicken Pesto Panini", "Turkey Sun-Dried Tomato Panini", "Grilled Vegetable Panini", "Pastrami Deli Sandwich", "Eggplant Parmesan Panini", "Croque Monsieur Panini", "\"Pho\"ggie", "Thit Khia Banh Mi"
+              ]
+            },
+            {
+              "type": "Entrées",
+              "items": [
+                "Chicken Curry", "Eggplant Tofu Curry", "Pad Thai", "Pad Thai Mini", "Fried Chicken", "BBQ Pork Plate", "BBQ Chicken Plate", "Beef Pho", "Chicken Pho", "Tofu Pho", "No Meat Pho", "Pho Broth"
+              ]
+            },
+            {
+              "type": "Salads",
+              "items": [
+                "Tofu Salad", "Spring Roll Noodle Salad", "Chicken Noodle Salad", "Tofu Noodle Salad", "Curry Noodle Salad", "Shrimp Summer Roll", "Tofu Summer Roll", "Chicken Summer Roll", "Tuna Summer Roll", "Chef Salad", "Caesar Salad", "Oriental Chicken Salad", "Green Papaya Salad"
+              ]
+            },
+            {
+              "type": "Pupus",
+              "items": [
+                "Spring Roll", "Pommes Frites", "Onion Rings", "Fried Chicken Wings", "Asian Spicy Buffalo Wings", "Chicken Tenders & Frites", "Mozzarella Sticks", "Mac & Cheese", "Fish & Frites", "Crab & Cheese Wontons", "Pepperoni French Bread Pizza", "Cheese French Bread Pizza", "Adobo Fried Chicken Wings", "Garlic Pommes Frites"
+              ]
+            }
+          ],
           "cost": "$",
           "takeout": "Yes",
           "dineIn": "Yes",
@@ -464,7 +757,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "None",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
@@ -488,7 +781,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "3",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
@@ -518,7 +811,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "None",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
@@ -548,7 +841,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "4.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
@@ -584,7 +877,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "4.5",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
@@ -620,7 +913,7 @@
           "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
           "campusLocation": "Paradise Palms",
           "rating": "4",
-          "photos": "***TO BE ADDED***",
+          "photos": "Currently Unavailable",
           "hours": {
             "monToFri": "Currently Unavailable",
             "satToSun": "CLOSED"
