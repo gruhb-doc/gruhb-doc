@@ -6,7 +6,7 @@ class HomeScreen extends React.Component {
   render() {
     return (
         <div>
-          <div className="landing-bg-img"></div>
+          <div className="homescreen-bg-img"></div>
           <Container className="landing-container">
             <Header as='h2' className="landing-header">GR<span className="landing-header-mid">UH</span>B</Header>
             <div>
