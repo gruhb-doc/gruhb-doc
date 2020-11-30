@@ -4,6 +4,7 @@
       "name": "Pizza Hut Express",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -50,6 +51,7 @@
       "name": "Stir Fresh",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
       "hours": {
@@ -118,6 +120,7 @@
       "name": "Aja Sushi & Bento",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -185,6 +188,7 @@
       "name": "Jamba Juice",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
       "hours": {
@@ -342,6 +346,7 @@
       "name": "Starbucks",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -595,6 +600,7 @@
       "name": "Subway",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "2.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -636,6 +642,7 @@
       "name": "Simply To Go",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -653,6 +660,7 @@
       "name": "Campus Center Food Court",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
+      "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -725,6 +733,7 @@
       "name": "Ba-Le",
       "address": "2445 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center (Near UH Manoa Recreational Center)",
+      "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1213,6 +1222,7 @@
       "name": "L&L Hawaiian Barbecue",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "None",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1250,6 +1260,7 @@
       "name": "Dunkin'",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1284,6 +1295,7 @@
       "name": "Holoholo Grill",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "None",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1329,6 +1341,7 @@
       "name": "Lasoon",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1380,6 +1393,7 @@
       "name": "Le Crepe Cafe",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
       "hours": {
@@ -1435,6 +1449,7 @@
       "name": "Panda Express",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
+      "description": "Currently Unavailable",
       "rating": "4",
       "photos": "Currently Unavailable",
       "hours": {
