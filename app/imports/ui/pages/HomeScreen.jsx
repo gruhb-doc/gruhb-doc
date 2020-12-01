@@ -10,10 +10,7 @@ class HomeScreen extends React.Component {
           <Container className="landing-container">
             <Header as='h2' className="landing-header">GR<span className="landing-header-mid">UH</span>B</Header>
             <div>
-              <p className="landing-text">HomeScreen.</p>
-            </div>
-            <div>
-              <p className="landing-text">Login or sign up to view the vendors.</p>
+              <p className="landing-text">Home Screen.</p>
             </div>
           </Container>
         </div>
