@@ -13,7 +13,7 @@
 
 .landing-container {
   position: absolute;
-  top: 42%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -29,6 +29,7 @@
 
 .landing-header-mid {
   color: #53d480;
+
 }
 
 .landing-text {
@@ -36,8 +37,34 @@
   font-size: 2rem;
 }
 
+.nav-header {
+  height: 150px;
+  background: #1b1c1d;
+  display: flex;
+
+  /*text-align: center !important;*/
+  /*justify-content: center !important;*/
+  /*flex-direction: row;*/
+  /*align-items: center !important;*/
+}
+
+.ui.borderless.inverted.top.attached.menu {
+  display: flex;
+  justify-content:center;
+}
+
+
 .nav-header-mid {
   color: #53d480;
+  background: #1b1c1d;
+}
+
+.nav-header-font {
+  font-size: 50px !important;
+}
+
+.h1.ui.header {
+  font-size: 20px;
 }
 
 .signin-bg-img {
@@ -110,7 +137,32 @@
   transition: all 0.2s linear;
 }
 
+.ui.fluid.image.landing-bottom-image {
+  height: 100%;
+  width: 100%;
+}
 
+.landing-bottom-image {
+  height: 100%;
+  width: 100%;
+}
+
+.landing-grid {
+  background-color:#1b1c1d;
+}
+
+.landing-grid-background {
+  background-color:#1b1c1d;
+}
+
+.landing-grid-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
 
 @media only screen and (max-width: 663px) {
   #root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
