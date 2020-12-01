@@ -22,7 +22,7 @@ class Vendor extends React.Component {
       // eslint-disable-next-line max-len
       description: 'Da Spot Health Foods & Juices offers diverse, healthy and affordable cuisine with a unique take on tasty dishes from around the world. Da Spot specializes in Mediterranean and North African food with vegan and specialty meat options that can be certified halal or kosher. Offering imaginative cuisine in exotic styles of Egyptian, Greek, French, Italian, Indian, Thai, Malaysian, Ethiopian, American, Hawaiian, Japanese, Chinese, Korean, Pacific Rim and fusion cooking.',
       rating: '3.5',
-      photos: 'https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg',
+      photo: 'https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg',
       hours: {
         monToFri: 'Currently Unavailable',
         satToSun: 'CLOSED',
@@ -102,7 +102,7 @@ class Vendor extends React.Component {
     return (
         <div className="vendor-container">
           {/* VENDOR IMAGE BANNER */}
-          <Image src={vendor.photos} fluid />
+          <Image src={vendor.photo} fluid />
 
           {/* VENDOR PAGE CONTENT */}
           <Container textAlign='justified'>
