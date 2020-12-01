@@ -7,7 +7,7 @@
   height: 1040px;
   width: 100%;
   margin-top: -12px;
-  filter: blur(2px);
+  /*filter: blur(2px);*/
   transition: all 0.2s linear;
 }
 
@@ -21,6 +21,13 @@
   padding: 20px;
   text-align: center;
 }
+
+
+.landing-card-container {
+  /*height: 400px;*/
+}
+
+
 
 #root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
   color: white;
