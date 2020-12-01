@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from 'semantic-ui-react';
+import { Card,  Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
 
@@ -7,14 +7,27 @@ import { withRouter, Link } from 'react-router-dom';
 class StuffItem extends React.Component {
   render() {
     return (
-        <Table.Row>
-          <Table.Cell>{this.props.stuff.name}</Table.Cell>
-          <Table.Cell>{this.props.stuff.quantity}</Table.Cell>
-          <Table.Cell>{this.props.stuff.condition}</Table.Cell>
-          <Table.Cell>
-            <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
-          </Table.Cell>
-        </Table.Row>
+        // <Table.Row>
+        //   <Table.Cell>{this.props.stuff.name}</Table.Cell>
+        //   <Table.Cell>{this.props.stuff.quantity}</Table.Cell>
+        //   <Table.Cell>{this.props.stuff.condition}</Table.Cell>
+        //   <Table.Cell>
+        //     <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
+        //   </Table.Cell>
+        // </Table.Row>
+    <Card centered>
+      <Card.Content>
+        <Card.Header>{this.props.stuff.name} </Card.Header>
+        <Card.Description>
+          {this.props.stuff.condition}
+        </Card.Description>
+      </Card.Content>
+      <Card.Content extra>
+        <Link to={`/edit/${this.props.stuff._id}`}>Edit</Link>
+      </Card.Content>
+      <Card.Content extra>
+      </Card.Content>
+    </Card>
     );
   }
 }
