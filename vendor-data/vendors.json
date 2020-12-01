@@ -669,57 +669,52 @@
       },
       "menu": [
         {
-          "type": "Daily Plate Lunch",
+          "type": "Monday",
           "items": [
-            {
-              "day": "Monday",
-              "items": [
-                "Pasta with Italian Sausage",
-                "Pasta with Meatballs",
-                "Pasta Combo with Italian Sausage and Meatballs",
-                "Salmon with Basil Tapenade",
-                "Chicken Marsala",
-                "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
-              ]
-            },
-            {
-              "day": "Tuesday",
-              "items": [
-                "Kalua Pork Quesadillas",
-                "Carne Asada Tacos",
-                "Salmon Tacos",
-                "Chicken Enchiladas"
-              ]
-            },
-            {
-              "day": "Wednesday",
-              "items": [
-                "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
-                "Broiled Pub Steak with Garlic and Mushrooms",
-                "Cajun Seared Fresh Salmon",
-                "BBQ Island Chicken"
-              ]
-            },
-            {
-              "day": "Thursday",
-              "items": [
-                "Roast Pork with Gravy",
-                "Ribeye Steak with Fresh Onion Rings",
-                "Fresh Island Catch with Lemon Butter Caper Sauce",
-                "Baked Chicken Parmesan with Marinara",
-                "Pasta with Clam Sauce",
-                "Garlic Jumbo Shrimp Skewers"
-              ]
-            },
-            {
-              "day": "Friday",
-              "items": [
-                "Braised Pork with Mushroom Gravy",
-                "Chicken Fried Steak with Country Gravy",
-                "Fried Shrimp and French Fries",
-                "Garlic Miso Chicken"
-              ]
-            }
+            "Pasta with Italian Sausage",
+            "Pasta with Meatballs",
+            "Pasta Combo with Italian Sausage and Meatballs",
+            "Salmon with Basil Tapenade",
+            "Chicken Marsala",
+            "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
+          ]
+        },
+        {
+          "type": "Tuesday",
+          "items": [
+            "Kalua Pork Quesadillas",
+            "Carne Asada Tacos",
+            "Salmon Tacos",
+            "Chicken Enchiladas"
+          ]
+        },
+        {
+          "type": "Wednesday",
+          "items": [
+            "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
+            "Broiled Pub Steak with Garlic and Mushrooms",
+            "Cajun Seared Fresh Salmon",
+            "BBQ Island Chicken"
+          ]
+        },
+        {
+          "type": "Thursday",
+          "items": [
+            "Roast Pork with Gravy",
+            "Ribeye Steak with Fresh Onion Rings",
+            "Fresh Island Catch with Lemon Butter Caper Sauce",
+            "Baked Chicken Parmesan with Marinara",
+            "Pasta with Clam Sauce",
+            "Garlic Jumbo Shrimp Skewers"
+          ]
+        },
+        {
+          "type": "Friday",
+          "items": [
+            "Braised Pork with Mushroom Gravy",
+            "Chicken Fried Steak with Country Gravy",
+            "Fried Shrimp and French Fries",
+            "Garlic Miso Chicken"
           ]
         }
       ],
