@@ -1,3 +1,4 @@
+/* LANDING PAGE */
 .landing-bg-img {
   background:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -40,6 +41,7 @@
   color: #53d480;
 }
 
+/* SIGN IN & SIGN OUT PAGE */
 .signin-bg-img {
   background:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -98,12 +100,13 @@
   border: 1px solid #53d480 !important;
 }
 
-/*VENDOR PAGE*/
+/* VENDOR PAGE */
 .vendor-container {
   margin-top: -10px;
   margin-bottom: 5rem;
 }
 
+/* VENDOR CONTENT CONTAINER */
 #root > div > div.vendor-container > div {
   margin-top: 3rem;
 }
@@ -113,6 +116,7 @@
   font-size: 4rem;
 }
 
+/* VENDOR CUISINE */
 #root > div > div.vendor-container > div > p:nth-child(2) {
   margin-top: 10px;
 }
@@ -130,6 +134,8 @@
 .vendor-menu-header {
   margin-bottom: 15px;
 }
+
+/* VENDOR HOURS, AMENITIES & MENU GRID */
 #root > div > div.vendor-container > div > div > div > div > div,
 #root > div > div.vendor-container > div > div.ui.stackable.column.grid > div > div {
   border: none;
@@ -140,6 +146,7 @@
   padding-left: 3rem;
 }
 
+/* VENDOR HOURS TEXT */
 #root > div > div.vendor-container > div > div:nth-child(10) > div > div > div > div > div > p {
   margin-top: 10px;
 }
@@ -152,15 +159,18 @@
   font-size: 16px;
 }
 
+/* VENDOR AMENITIES */
 #root > div > div.vendor-container > div > div:nth-child(13) > div > div > p > span {
   margin-left: 5px;
 }
 
+/* VENDOR MENU DIVIDER */
 #root > div > div.vendor-container > div > div.ui.stackable.column.grid > div > div > div > div > div.ui.divider {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
+/* VENDOR MENU ITEMS */
 #root > div > div.vendor-container > div > div.ui.stackable.column.grid > div > div > div > div > div.list > div > div > div {
   font-size: 16px;
   margin-bottom: 1rem;
