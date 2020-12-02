@@ -80,7 +80,7 @@ class Signup extends React.Component {
                 <Form.Button id="signup-form-submit" content="Submit"/>
                 <div>
                   Already signed up with GR<span className="nav-header-mid">UH</span>B?
-                  <Link to="/signin"> Sign up</Link>
+                  <Link to="/signin"> Sign in</Link>
                 </div>
               </Segment>
             </Form>
