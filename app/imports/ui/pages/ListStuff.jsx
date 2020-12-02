@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Container, Table, Header, Loader, Card } from 'semantic-ui-react';
+import { Container, Header, Loader, Card } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Stuffs } from '../../api/stuff/Stuff';
@@ -20,19 +20,19 @@ class ListStuff extends React.Component {
         <div className="homescreen-bg-img">
         <Container>
           <Header as="h2" textAlign="center">Vendor</Header>
-          {/*<Table celled>*/}
-            {/*<Table.Header>*/}
-            {/*  <Table.Row>*/}
-            {/*    <Table.HeaderCell>Name</Table.HeaderCell>*/}
-            {/*    <Table.HeaderCell>Quantity</Table.HeaderCell>*/}
-            {/*    <Table.HeaderCell>Condition</Table.HeaderCell>*/}
-            {/*    <Table.HeaderCell>Edit</Table.HeaderCell>*/}
-            {/*  </Table.Row>*/}
-            {/*</Table.Header>*/}
-          {/*  <Table.Body>*/}
-          {/*    {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)}*/}
-          {/*  </Table.Body>*/}
-          {/*</Table>*/}
+          {/* <Table celled> */}
+            {/* <Table.Header> */}
+            {/*  <Table.Row> */}
+            {/*    <Table.HeaderCell>Name</Table.HeaderCell> */}
+            {/*    <Table.HeaderCell>Quantity</Table.HeaderCell> */}
+            {/*    <Table.HeaderCell>Condition</Table.HeaderCell> */}
+            {/*    <Table.HeaderCell>Edit</Table.HeaderCell> */}
+            {/*  </Table.Row> */}
+            {/* </Table.Header> */}
+          {/*  <Table.Body> */}
+          {/*    {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)} */}
+          {/*  </Table.Body> */}
+          {/* </Table> */}
           <Card.Group itemsPerRow={3}>
             {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)}
           </Card.Group>
