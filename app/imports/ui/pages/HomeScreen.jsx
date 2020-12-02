@@ -1,11 +1,10 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Container, Card, Grid, Header, Image, Loader, } from 'semantic-ui-react';
+import { Container, Card, Header, Loader } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Stuffs } from '../../api/stuff/Stuff';
 import StuffItem from '../components/StuffItem';
-
 
 /** A simple static component to render some text for the landing page. */
 class HomeScreen extends React.Component {
@@ -17,12 +16,12 @@ class HomeScreen extends React.Component {
     return (
         <div>
           <div className="landing-bg-img">
-          {/*<Container className="landing-container">*/}
-          {/*  <Header as='h2' className="landing-header">GR<span className="landing-header-mid">UH</span>B</Header>*/}
-          {/*  <div>*/}
-          {/*    <p className="landing-text">It is time to find your Gruhb.</p>*/}
-          {/*  </div>*/}
-          {/*</Container>*/}
+          {/* <Container className="landing-container"> */}
+          {/*  <Header as='h2' className="landing-header">GR<span className="landing-header-mid">UH</span>B</Header> */}
+          {/*  <div> */}
+          {/*    <p className="landing-text">It is time to find your Gruhb.</p> */}
+          {/*  </div> */}
+          {/* </Container> */}
           <Container className="landing-card-container">
             <Header as="h2" textAlign="center" inverted>Vendor</Header>
             <Card.Group itemsPerRow={3}>
@@ -30,7 +29,6 @@ class HomeScreen extends React.Component {
             </Card.Group>
           </Container>
         </div>
-
 
         </div>
     );

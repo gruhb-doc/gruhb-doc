@@ -20,7 +20,7 @@ class NavBar extends React.Component {
                   <div className="nav-header-font">
                   <Header as="h1" inverted >GR<span className="nav-header-mid">UH</span>B</Header></div></Menu.Item>]
         ) : [
-            <Menu.Item position="" as={NavLink} activeClassName="" exact to="/">
+            <Menu.Item position="" as={NavLink} activeClassName="" exact to="/" key='root'>
           <div className="nav-header-font">
           <Header as="h1" inverted>GR<span className="nav-header-mid">UH</span>B</Header>
         </div>
@@ -41,22 +41,18 @@ class NavBar extends React.Component {
             <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
         ) : ''}
 
-
-
-
         {this.props.currentUser ? (
             [
               // <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>List Stuff</Menu.Item>
-                <Dropdown item text='Vendors'>
+                <Dropdown key='list' item text='Vendors'>
                   <Dropdown.Menu>
                     <Dropdown.Item>Vendor Name Here</Dropdown.Item>
                     <Dropdown.Item>Vendor Name Here</Dropdown.Item>
                     <Dropdown.Item>Vendor Name Here</Dropdown.Item>
                   </Dropdown.Menu>
-                </Dropdown>
+                </Dropdown>,
             ]
         ) : ''}
-
 
         {this.props.currentUser ? (
             [<Menu.Item position="" as={NavLink} activeClassName="active" exact to="/add" key='add'>About</Menu.Item>]
