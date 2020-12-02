@@ -5,7 +5,7 @@ import { Container, Header } from 'semantic-ui-react';
 class Landing extends React.Component {
   render() {
     return (
-        <div>
+        <div id='landing-page'>
           <div className="landing-bg-img"></div>
           <Container className="landing-container">
             <Header as='h2' className="landing-header">GR<span className="landing-header-mid">UH</span>B</Header>
