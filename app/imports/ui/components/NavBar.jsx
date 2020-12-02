@@ -13,35 +13,24 @@ class NavBar extends React.Component {
     return (
         <div className="nav-header">
       <Menu style={menuStyle} attached="top" borderless inverted>
-
-        <Menu.Item position="left">
-          <p> </p>
-        </Menu.Item>
-
         {this.props.currentUser ? (
-            [<Menu.Item position="" as={NavLink} activeClassName="active" exact to="/add" key='add'>About</Menu.Item>]
-        ) : ''}
-        {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
-            <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
-        ) : ''}
-
+            [
+                <Menu.Item as={NavLink} activeClassName="active" exact to="/homescreen" key='homescreen'>
+                  <div className="nav-header-font">
+                  <Header as="h1" inverted >GR<span className="nav-header-mid">UH</span>B</Header></div></Menu.Item>]
+        ) : [
+            <Menu.Item position="" as={NavLink} activeClassName="" exact to="/">
+          <div className="nav-header-font">
+          <Header as="h1" inverted>GR<span className="nav-header-mid">UH</span>B</Header>
+        </div>
+        </Menu.Item>]}
         {this.props.currentUser ? (
             [<Menu.Item position="" as={NavLink} activeClassName="active" exact to="/add" key='add'>Add Stuff</Menu.Item>]
         ) : ''}
         {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
             <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
         ) : ''}
-        {this.props.currentUser ? (
-            [
-                <Menu.Item as={NavLink} activeClassName="active" exact to="/homescreen" key='homescreen'>
-                  <div className="nav-header-font">
-                  <Header inverted >GR<span className="nav-header-mid">UH</span>B</Header></div></Menu.Item>]
-        ) : [
-            <Menu.Item position="" as={NavLink} activeClassName="" exact to="/">
-          <div className="nav-header-font">
-          <Header>GR<span className="nav-header-mid">UH</span>B</Header>
-        </div>
-        </Menu.Item>]}
+
         {this.props.currentUser ? (
             [
               <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>List Stuff</Menu.Item>]
@@ -49,6 +38,9 @@ class NavBar extends React.Component {
         {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
             <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
         ) : ''}
+
+
+
 
         {this.props.currentUser ? (
             [
@@ -61,6 +53,14 @@ class NavBar extends React.Component {
                   </Dropdown.Menu>
                 </Dropdown>
             ]
+        ) : ''}
+
+
+        {this.props.currentUser ? (
+            [<Menu.Item position="" as={NavLink} activeClassName="active" exact to="/add" key='add'>About</Menu.Item>]
+        ) : ''}
+        {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
+            <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
         ) : ''}
         <Menu.Item position="right">
           {this.props.currentUser === '' ? (
