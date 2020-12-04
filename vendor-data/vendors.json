@@ -4,9 +4,9 @@
       "name": "Pizza Hut Express",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "You can always count on pizza to satisfy your hunger. Our Pizza Hut Express location offers all of your favorite Pizza Hut items for you to grab and go. Enjoy our daily Pizza Hut pan pizza specials, breadsticks, and popular Wingstreet items!",
       "rating": "3.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/Pizza-Hut_Personal%20Pizzas_1920x976_tcm247-8261_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
@@ -51,9 +51,9 @@
       "name": "Stir Fresh",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "Located on the first floor of Campus Center across from the ATMs, Stir-Fresh serves up fresh and healthy Poke Bowls and Stir Frys. Come down today and build your own stir fry - First choose your protein, next choose your sauce, then choose rice or noodles, last fill up your bowl with the vegetables of your choice. After you've made your selections your lunch will be tossed by our expert chefs. Want to eat what the locals eat? Try one of our signature poke bowls. Aloha Friday specials are also offered every week. Stop by today and enjoy the Stir-Fresh experience!",
       "rating": "3",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/Sodexo-37_tcm247-32583_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
@@ -120,9 +120,9 @@
       "name": "Aja Sushi & Bento",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "Aja Bento is the food you grew up with. Remember that New Year's Eve family party or cousin's grad party? Good times with a cannot-go-wrong mixture of Japanese, Korean, Filipino, and Chinese influences.",
       "rating": "3.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://images.squarespace-cdn.com/content/v1/570456db7c65e413093f02b2/1603244454917-6BFYIT79MQZ3X0UGTSS3/ke17ZwdGBToddI8pDm48kNJjCGTt_mhl5IPbOq6v-Bh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmzJBBHkqvGAibxByi2-xi3LVRNCWTMmZygya6JH9K2jrudW56UgwYsk1LEDk7cgx/image3.jpeg?format=2500w",
       "hours": {
         "monToFri": "6:30AM - 4PM",
         "satToSun": "CLOSED"
@@ -188,9 +188,9 @@
       "name": "Jamba Juice",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "Visit Jamba for refreshing fruit smoothie blends, delicious and nutritious energy bowls, fresh juices, healthy baked goods and savory grab-and-go food items. Jamba blends real fruit and whole ingredients into each delicious fresh juice, smoothie, or energy bowl you order and contains no artificial colors, preservatives, or flavors.",
       "rating": "3",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/Sodexo-56_tcm247-32584_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToFri": "8AM - 4PM",
         "satToSun": "CLOSED"
@@ -346,9 +346,9 @@
       "name": "Starbucks",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "With a full menu, as well as seasonal and specialty items, coffee fanatics are sure to be pleased. Also available are pastries, fruit cups, and bottled beverages for your purchase. Our location strives to give you the very same experience found at any other Starbucks across the nation. If you didn't already know, Starbucks is one of the few retail locations open later in the evening -- perfect for hanging out with some friends or studying!",
       "rating": "3.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/Starbucks-Cold_1920x976_tcm247-8167_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToThurs": "7M - 7PM",
         "friday": "7AM - 6PM",
@@ -600,9 +600,9 @@
       "name": "Subway",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "An alternative to traditional fast food, we offer freshly cut veggies, toppings, protein and freshly-baked bread to create the perfect meal with freshly baked cookies all at a great value!",
       "rating": "2.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://rde-stanford-edu.s3.amazonaws.com/Hospitality/Images/subway-header.jpg",
       "hours": {
         "monToThurs": "7AM - 7PM",
         "friday": "7AM - 6PM",
@@ -642,9 +642,9 @@
       "name": "Simply To Go",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "Simply To Go is just as the name says... simple items purchased to go! A great place to get a quick bite between classes, you can purchase coffee, breakfast items, pastries, bottled beverages, and desserts while you're on the go. We proudly serve Starbucks Coffee. Simply To Go carries a variety of health food brands, such as Kashi, Kopali Organics and Bare Fruit Snacks. Cool off on a hot day with a Dole Whip!",
       "rating": "4.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/STG%20BG%20LOGO_tcm247-102641_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToFri": "8AM - 3PM",
         "satToSun": "CLOSED"
@@ -660,9 +660,9 @@
       "name": "Campus Center Food Court",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Currently Unavailable",
+      "description": "The Campus Center Food Court offers a variety of food including plate lunches, and our newly featured Simply to Go station with Freshly made salads, wraps, fresh fruit and desserts.",
       "rating": "3.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/Sodexo-20_tcm247-32585_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToFri": "11AM - 2PM",
         "satToSun": "CLOSED"
@@ -728,9 +728,9 @@
       "name": "Ba-Le",
       "address": "2445 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center (Near UH Manoa Recreational Center)",
-      "description": "Currently Unavailable",
+      "description": "Ba-Le is the perfect stop if you're craving something a little different. Pastries, sandwiches, and pre-made salads are some of their quick lunch options. Popular items at Ba-Le include pho, pad thai, and banh mi sandwiches. Also offered at Ba-Le are a selection of La Tour Cafe macarons and entrees. Spend your meal time at Ba-Le for a variety of foods and flavors!",
       "rating": "3",
-      "photo": "Currently Unavailable",
+      "photo": "https://content-service.sodexomyway.com/media/website8_tcm247-25205_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
       "hours": {
         "monToThurs": "10AM - 8PM",
         "friday": "10AM - 9PM",
@@ -1217,9 +1217,9 @@
       "name": "L&L Hawaiian Barbecue",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
-      "rating": "None",
-      "photo": "Currently Unavailable",
+      "description": "Delicious local and Asian-American fusion cuisine served in big portions at reasonable prices! Try delicious L&L favorites like the Hawaiian Barbecue beef, chicken, or short ribs! Enjoy L&L’s famous fried chicken katsu, the best in town! Grab-and-go, breakfast items and party packs for groups also available.",
+      "rating": "3",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/landl_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
@@ -1255,9 +1255,9 @@
       "name": "Dunkin'",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
+      "description": "Dunkin’ Donuts in Paradise Palms Cafe will keep Hawaii running with high-quality beverage offerings–including freshly-brewed Hot and Iced Coffees–paired perfectly with delicious donuts, bakery good, sandwiches and more.",
       "rating": "3",
-      "photo": "Currently Unavailable",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/dunkin_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
@@ -1290,9 +1290,9 @@
       "name": "Holoholo Grill",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
-      "rating": "None",
-      "photo": "Currently Unavailable",
+      "description": "Holoholo Grill features healthy, locally grown salads, sandwiches, and grab-and-go items at affordable prices. They are committed to using the freshest island-grown ingredients sourced directly from farmers and fishermen. Grab-and-go, breakfast items, or catering for any sized group are also available!",
+      "rating": "3.5",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/holoholo_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
@@ -1336,9 +1336,9 @@
       "name": "Lasoon",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
+      "description": "Lasoon offers natural home-cooked Nepali and Indian food for everyone. We are focusing on vegan and gluten free meals and offer 4 – 5 options that are changed daily. Besides the vegan options we offer 3 meat options ranging from mild to spicy!",
       "rating": "4.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://scontent.fhnl1-1.fna.fbcdn.net/v/t1.0-9/40056618_2280237212204387_8617084854099509248_o.jpg?_nc_cat=107&ccb=2&_nc_sid=dd9801&_nc_ohc=vK65bZViwrsAX9PlZCM&_nc_ht=scontent.fhnl1-1.fna&oh=180524715b791a2e01b790b73ebbdcff&oe=5FEEAC33",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
@@ -1385,12 +1385,12 @@
       "cuisine": "Himalayan/Nepalese, Indian"
     },
     {
-      "name": "Le Crepe Cafe",
+      "name": "Le Crêpe Café",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
+      "description": "Le Crêpe Café makes traditional French crêpes, cooked to order in front of customers. They specialize in a flavorsome menu of sweet and savory crêpes and use fresh ingredients, organic when possible. Their utensils are even bio-compostable. Enjoy a crêpe any time of day, as a breakfast, snack, main course, or dessert — close your eyes and you’re in Paris! Whether you’re needing a break from the law books or a pick-me-up as you’re headed to or off campus, you’ll also appreciate Le Crêpe Café’s French Roast and espresso drinks.",
       "rating": "4.5",
-      "photo": "Currently Unavailable",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/crepe_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
@@ -1444,9 +1444,9 @@
       "name": "Panda Express",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
-      "description": "Currently Unavailable",
+      "description": "Panda Express serves gourmet Chinese food made with only the freshest ingredients. Famous for its Orange Chicken, they also offer a number of Wok Smart entrées that contain less than 250 calories per serving, such as Shanghai Angus Steak, Kung Pao Chicken, and Broccoli Beef. Other favorites include Beijing Beef, Sweetfire Chicken Breast, and Honey Walnut Shrimp. Panda Express’ offerings can be enjoyed in Panda Bowls, or two and three item plates. Perfect for lunch, dinner or as a pick-me-up snack between classes.",
       "rating": "4",
-      "photo": "Currently Unavailable",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/panda_big2.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
