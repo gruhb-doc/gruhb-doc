@@ -173,6 +173,41 @@
   justify-content: center;
   width: 100%;
 }
+
+
+.aboutus-bg-img {
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(images/aboutus_bg.jpg),
+      no-repeat center center;
+  background-size: cover;
+  height: 520px;
+  width: 100%;
+  margin-top: -12px;
+  /*filter: blur(2px);*/
+  transition: all 0.2s linear;
+}
+
+.aboutus-sizedbox {
+  height: 130px;
+  width: 100%;
+  background-color: #1b1c1d;
+}
+
+.aboutus-div {
+  height: 260px;
+  width: 100%;
+  background-color: #1b1c1d;
+}
+
+.aboutus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 /* VENDOR PAGE */
 .vendor-container {
   margin-top: -10px;
