@@ -15,7 +15,9 @@ class AboutUs extends React.Component {
                     <Card.Content>
                       <Card.Header>Jackie Wong</Card.Header>
                       <Card.Description>
-                        I am currently enrolled in his third year at the University of Hawaii at Manoa and pursuing a Bachelor of Science in Computer Science. I plan to get into software development or engineering, and full-stack web development.
+                        I am currently enrolled in his third year at the University of Hawaii at Manoa and pursuing a Bachelor of Science in
+                        Computer Science.
+                        I plan to get into software development or engineering, and full-stack web development.
                       </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
@@ -26,7 +28,9 @@ class AboutUs extends React.Component {
                     <Card.Content>
                       <Card.Header>Samuel Han</Card.Header>
                       <Card.Description>
-                        I am currently in my senior year at the University of Hawaii at Manoa and am double majoring in Biology and Computer Science. I am planning on getting into mobile development. You can learn more about me here!
+                        I am currently in my senior year at the University of Hawaii at Manoa and am double majoring in Biology and Computer
+                         Science.
+                        I am planning on getting into mobile development. You can learn more about me here!
                       </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
