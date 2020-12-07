@@ -3,8 +3,10 @@ import { Meteor } from 'meteor/meteor';
 import { Container, Card, Header, Loader } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import { Stuffs } from '../../api/stuff/Stuff';
-import StuffItem from '../components/StuffItem';
+// import { Stuffs } from '../../api/stuff/Stuff';
+// import StuffItem from '../components/StuffItem';
+import { Vendors } from '../../api/vendor/Vendor';
+import VendorItem from '../components/VendorItem';
 
 /** A simple static component to render some text for the landing page. */
 class HomeScreen extends React.Component {
@@ -25,7 +27,8 @@ class HomeScreen extends React.Component {
           <Container className="landing-card-container">
             <Header as="h2" textAlign="center" inverted>Vendor</Header>
             <Card.Group itemsPerRow={3}>
-              {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)}
+              {/* {this.props.stuffs.map((stuff) => <StuffItem key={stuff._id} stuff={stuff} />)} */}
+              {this.props.vendors.map((vendor) => <VendorItem key={vendor._id} vendor={vendor} />)}
             </Card.Group>
           </Container>
         </div>
@@ -39,16 +42,19 @@ class HomeScreen extends React.Component {
 
 /** Require an array of Stuff documents in the props. */
 HomeScreen.propTypes = {
-  stuffs: PropTypes.array.isRequired,
+  // stuffs: PropTypes.array.isRequired,
+  vendors: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
 
 /** withTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker */
 export default withTracker(() => {
   // Get access to Stuff documents.
-  const subscription = Meteor.subscribe(Stuffs.userPublicationName);
+  // const subscription = Meteor.subscribe(Stuffs.userPublicationName);
+  const subscription = Meteor.subscribe(Vendors.userPublicationName);
   return {
-    stuffs: Stuffs.collection.find({}).fetch(),
+    // stuffs: Stuffs.collection.find({}).fetch(),
+    vendors: Vendors.collection.find({}).fetch(),
     ready: subscription.ready(),
   };
 })(HomeScreen);
