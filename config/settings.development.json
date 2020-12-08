@@ -1017,28 +1017,8 @@
     {
       "name": "Hot Tacos",
       "address": "Rotating Address",
-      "campusLocation": [
-        {
-          "day": "Monday",
-          "location": "Kennedy Theatre"
-        },
-        {
-          "day": "Tuesday",
-          "location": "POST Building"
-        },
-        {
-          "day": "Wednesday",
-          "location": "Kuykendall Hall"
-        },
-        {
-          "day": "Thursday",
-          "location": "School of Architecture"
-        },
-        {
-          "day": "Friday",
-          "location": "Korean Studies Building"
-        }
-      ],
+      "campusLocation":  "Kennedy Theatre",
+
       "description": "Hot Tacos offers authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas with meat options like steak, chicken, marinated pork, and shredded beef. They offer a la carte options or lunch plates that include beans and Spanish rice and other add on options like Chili Rellenos and Tamales.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg",
@@ -1073,28 +1053,7 @@
     {
       "name": "Kamitoku Ramen",
       "address": "2500 Campus Rd, Honolulu, HI 96822",
-      "campusLocation": [
-        {
-          "day": "Monday",
-          "location": "POST Building"
-        },
-        {
-          "day": "Tuesday",
-          "location": "POST Building"
-        },
-        {
-          "day": "Wednesday",
-          "location": "Krauss Hall"
-        },
-        {
-          "day": "Thursday",
-          "location": "POST Building"
-        },
-        {
-          "day": "Friday",
-          "location": "POST Building"
-        }
-      ],
+      "campusLocation":"POST Building",
       "description": "Kamitoku Ramen specializes in a Tottori-style beef bone ramen.",
       "rating": "4",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/kamitoku_big-1024x375.jpg",
