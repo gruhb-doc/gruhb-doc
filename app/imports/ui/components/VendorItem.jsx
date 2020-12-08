@@ -11,7 +11,7 @@ class VendorItem extends React.Component {
           <Card.Content>
             <Card.Header>{this.props.vendor.name} </Card.Header>
            <Card.Description>
-             this.props.vendor.description
+             {this.props.vendor.description}
             </Card.Description>
           </Card.Content>
           <Card.Content extra>

@@ -25,10 +25,10 @@
       "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Personal Pan Pizza",
@@ -72,10 +72,10 @@
       "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Poke Bowls",
@@ -141,10 +141,10 @@
       "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "6:30AM - 4PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Appetizers",
@@ -209,10 +209,10 @@
       "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "8AM - 4PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Secret Menu Smoothies",
@@ -367,11 +367,11 @@
       "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToThurs": "7M - 7PM",
         "friday": "7AM - 6PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Seasonal Beverages",
@@ -621,11 +621,11 @@
       "description": "Currently Unavailable",
       "rating": "2.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToThurs": "7AM - 7PM",
         "friday": "7AM - 6PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Sandwiches",
@@ -663,10 +663,10 @@
       "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "8AM - 3PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": "Currently Unavailable",
       "cost": "$$",
       "takeout": "No",
@@ -681,10 +681,10 @@
       "description": "Currently Unavailable",
       "rating": "3.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "11AM - 2PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Daily Plate Lunch",
@@ -754,11 +754,11 @@
       "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToThurs": "10AM - 8PM",
         "friday": "10AM - 9PM",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Sandwiches",
@@ -857,9 +857,9 @@
       "description": "Da Spot Health Foods & Juices offers diverse, healthy and affordable cuisine with a unique take on tasty dishes from around the world. Da Spot specializes in Mediterranean and North African food with vegan and specialty meat options that can be certified halal or kosher. Offering imaginative cuisine in exotic styles of Egyptian, Greek, French, Italian, Indian, Thai, Malaysian, Ethiopian, American, Hawaiian, Japanese, Chinese, Korean, Pacific Rim and fusion cooking.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -908,9 +908,9 @@
       "description": "Want a sustainable selection for lunch? Try Govinda’s, which offers a 100% pure vegetarian menu, with items low in cholesterol and mostly organic. They strive to bring you a healthy and delicious meal at the best possible price. Govinda’s uses top quality produce and only the finest quality sea salt. All of the rice, grains, beans, tofu, sugar and flour are certified organic. Their menu never contains any meat or meat by-products, fish, eggs, MSG, iodized salt, preservatives, hydrogenated oils, or artificial colors or flavors.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/govindas_big-1024x375.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Daily Specials",
@@ -1042,9 +1042,9 @@
       "description": "Hot Tacos offers authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas with meat options like steak, chicken, marinated pork, and shredded beef. They offer a la carte options or lunch plates that include beans and Spanish rice and other add on options like Chili Rellenos and Tamales.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -1098,9 +1098,9 @@
       "description": "Kamitoku Ramen specializes in a Tottori-style beef bone ramen.",
       "rating": "4",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/kamitoku_big-1024x375.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Ramen",
@@ -1149,9 +1149,9 @@
       "description": "Traditional super ono ahi & tako poke; always fresh, premium ahi — never frozen! Made to order poke by the pound & poke bowls.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/onoseafood_big-1024x375.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -1176,15 +1176,15 @@
     {
       "name": "Sistah Truck",
       "address": "Rotating Address",
-      "campusLocation": [
+      "campusLocation":
         "POST Building, Kuykendall Hall, School of Architecture, Korean Studies Building, Kennedy Theatre"
-      ],
+      ,
       "description": "Sistah Truck serves Korean-inspired local cuisine. Daily menu plate lunches include loco moco, chicken katsu, and Korean-style shoyu chicken. They also serve grab-and-go dishes like bibimbap, gyoza and kimchi bowls. Vegetarian options are available.",
       "rating": "none",
       "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/sistah_big.jpg",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable"
-      },
+      }],
       "menu": [
         {
           "type": "Daily Specials",
@@ -1243,10 +1243,10 @@
       "description": "Currently Unavailable",
       "rating": "None",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -1275,16 +1275,16 @@
       "cuisine": "Barbeque, Hawaiian"
     },
     {
-      "name": "Dunkin'",
+      "name": "Dunkin",
       "address": "2560 McCarthy Mall University of Hawaii, Honolulu, HI 96822",
       "campusLocation": "Paradise Palms",
       "description": "Currently Unavailable",
       "rating": "3",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -1316,10 +1316,10 @@
       "description": "Currently Unavailable",
       "rating": "None",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Main",
@@ -1362,10 +1362,10 @@
       "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Vegan/Vegetarian",
@@ -1414,10 +1414,10 @@
       "description": "Currently Unavailable",
       "rating": "4.5",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Savory Crepes",
@@ -1470,10 +1470,10 @@
       "description": "Currently Unavailable",
       "rating": "4",
       "photos": "Currently Unavailable",
-      "hours": {
+      "hours": [{
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      },
+      }],
       "menu": [
         {
           "type": "Mixed Veggies",

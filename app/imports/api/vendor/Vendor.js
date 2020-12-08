@@ -15,19 +15,16 @@ class VendorsCollection {
       address: String,
       campusLocation: String,
       description: String,
-      rating: Number,
+      rating: String,
       photos: String,
-      hours: {
+      hours: [{
         monToFri: String,
         satToSun: String,
-      },
+      }],
       menu: [
         {
           type: String,
-          items: [
-            String,
-            String,
-            String],
+          items: [String],
         },
       ],
       cost: String,
