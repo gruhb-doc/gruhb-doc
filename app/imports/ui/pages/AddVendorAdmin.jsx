@@ -15,14 +15,10 @@ const formSchema = new SimpleSchema({
   description: String,
   rating: String,
   photos: String,
-  hours: {
-    monToFri: String,
-    satToSun: String,
-  },
-  menu: {
-    type: String,
-    items: Array,
-  },
+  hoursMonToFri: String,
+  hoursSatTSun: String,
+  menuType: Array,
+  menuItems: Array,
   cost: {
     type: String,
     allowedValues: ['$', '$$', '$$$'],
@@ -81,6 +77,21 @@ class AddVendorAdmin extends React.Component {
                 <TextField name='rating'/>
                 <TextField name='photos'/>
                 <TextField name='hours'/>
+                <Header as="h3" textAlign="center">Opening Hours</Header>
+                <Form.Group widths='equal'>
+                  <Form.Field
+                      name='hoursMonToFri'
+                      label='Hours(Monday-Friday)'
+                      control='input'
+                      placeholder='Add Opening Times Here'
+                  />
+                  <Form.Field
+                      name='hoursSatToSun'
+                      label='Hours(Saturday-Sunday)'
+                      control='input'
+                      placeholder='Add Opening Times Here'
+                  />
+                </Form.Group>
                 <Form.Group widths='equal'>
                   <Form.Field
                       name='type'
