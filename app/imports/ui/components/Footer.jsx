@@ -4,7 +4,7 @@ import { Container, Grid, Menu } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
-    const divStyle = { color: 'white', paddingTop: '15px', backgroundColor: '#24292E', fontFamily: 'Raleway' };
+    const divStyle = { color: 'white', paddingTop: '15px', backgroundColor: '#1B1C1D'};
     return (
           <div style={divStyle}>
             <Container>
