@@ -20,18 +20,6 @@ import { Vendors } from '../../api/vendor/Vendor.js';
 function addVendor(data) {
   console.log(`  Adding: ${data.name} `);
   Vendors.collection.insert(data);
-  console.log(`  Printing data: ${data} `);
-  console.log(`  Printing address: ${data.address} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-  // console.log(`  Printing address: ${data} `);
-
-
 }
 
 /** Initialize the collection if empty. */
@@ -41,4 +29,3 @@ if (Vendors.collection.find().count() === 0) {
     Meteor.settings.vendors.map(data => addVendor(data));
   }
 }
-
