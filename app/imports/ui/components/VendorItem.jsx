@@ -15,14 +15,14 @@ class VendorItem extends React.Component {
                    src={this.props.vendor.photos}
                    width="200"
                    height="200"
-                   fluid
+                   // fluid
                    centered/>
                </Grid.Row>
          <Grid.Row>
            <Grid.Column width={5}>
              <Grid.Row>
                <Card.Content>
-                 <Card.Header centered>{this.props.vendor.name} </Card.Header>
+                 <Card.Header>{this.props.vendor.name} </Card.Header>
                </Card.Content>
              </Grid.Row>
            </Grid.Column >
