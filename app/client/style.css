@@ -25,8 +25,63 @@
 
 
 .landing-card-container {
-  /*height: 400px;*/
+  width: 100%
 }
+
+.landing-bg-img {
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(images/landing_bg.jpg),
+            no-repeat center center;
+    background-size: cover;
+    height: 1040px;
+    width: 100%;
+    margin-top: -12px;
+    /*filter: blur(2px);*/
+    transition: all 0.2s linear;
+}
+
+.landing-container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.landing-card-container {
+    width: 100%
+}
+
+.homescreen-bg-img {
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+            url(images/homescreen_bg.jpg),
+             center center,
+            repeat-y;
+    background-size: cover;
+
+    height: 3400px !important;
+    /*height: 100%;*/
+    width: 100%;
+    margin-top: -12px;
+    /*filter: blur(2px);*/
+    transition: all 0.2s linear;
+}
+
+
+.homescreen-card-container {
+    position: relative;
+    width: 100%;
+    padding: 100px;
+}
+
+
 
 
 

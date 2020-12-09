@@ -3,7 +3,8 @@ import { Container, Divider, Grid, Header, Image, List, Loader, Segment } from '
 import { Meteor } from 'meteor/meteor';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import { Stuffs } from '../../api/stuff/Stuff';
+// import { Stuffs } from '../../api/stuff/Stuff';
+import { Vendors } from '../../api/vendor/Vendor';
 
 /** Renders the Page for editing a single document. */
 class Vendor extends React.Component {
@@ -220,9 +221,11 @@ export default withTracker(({ match }) => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const documentId = match.params._id;
   // Get access to Stuff documents.
-  const subscription = Meteor.subscribe(Stuffs.userPublicationName);
+  // const subscription = Meteor.subscribe(Stuffs.userPublicationName);
+  const subscription = Meteor.subscribe(Vendors.userPublicationName);
   return {
-    doc: Stuffs.collection.findOne(documentId),
+    // doc: Stuffs.collection.findOne(documentId),
+    doc: Vendors.collection.findOne(documentId),
     ready: subscription.ready(),
   };
 })(Vendor);
