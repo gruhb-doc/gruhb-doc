@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Image, Grid, Divider } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class VendorItem extends React.Component {
@@ -22,7 +22,9 @@ class VendorItem extends React.Component {
            <Grid.Column width={5}>
              <Grid.Row>
                <Card.Content>
-                 <Card.Header>{this.props.vendor.name} </Card.Header>
+                 <Card.Header>
+                   <Link to={`/vendor/${this.props.vendor._id}`}>{this.props.vendor.name}</Link>
+                 </Card.Header>
                </Card.Content>
              </Grid.Row>
            </Grid.Column >
