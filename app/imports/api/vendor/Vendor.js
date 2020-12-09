@@ -11,6 +11,7 @@ class VendorsCollection {
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
+      owner: String,
       name: String,
       address: String,
       campusLocation: String,
