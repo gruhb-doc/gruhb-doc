@@ -15,8 +15,27 @@ const formSchema = new SimpleSchema({
   description: String,
   rating: Number,
   photos: String,
+  // hours: [{
+  //   monToFri: String,
+  //   satToSun: String,
+  // }],
+  // menu: [
+  //   {
+  //     type: String,
+  //     items: [String],
+  //   },
+  // ],
+
+  // hours: Object,
+  // 'hours.monToFri': String,
+  // 'hours.satToSun': String,
   monToFri: String,
   satToSun: String,
+  // menu: Array,
+  // 'menu.$': Object,
+  // 'menu.$.type': String,
+  // 'menu.$.items': Array,
+  // 'menu.$.items.$': String,
   cost: String,
   takeout: String,
   dineIn: String,
@@ -34,6 +53,12 @@ class AddVendor extends React.Component {
     const { name, address, campusLocation, description, rating, photos,
       monToFri,
       satToSun,
+      // menu: [
+      //   // {
+      //   //   // type,
+      //   //   // items,
+      //   // },
+      // ],
       cost,
       takeout,
       dineIn,
@@ -41,10 +66,16 @@ class AddVendor extends React.Component {
       cuisine } = data;
     const owner = Meteor.user().username;
     Vendors.collection.insert({ name, address, campusLocation, description, rating, photos,
-          hours: {
+          hours: [{
             monToFri,
             satToSun,
-          },
+          }],
+          // menu: [
+          //   {
+          //     // type,
+          //     // items,
+          //   },
+          // ],
           menu: [],
           cost,
           takeout,
@@ -81,8 +112,12 @@ class AddVendor extends React.Component {
                 <TextField name='dineIn'/>
                 <TextField name='delivery'/>
                 <TextField name='cuisine'/>
+                 {/* <TextField name='hours.monToFri'/> */}
+                 {/* <TextField name='hours.satToSun'/> */}
                 <TextField name='monToFri'/>
                 <TextField name='satToSun'/>
+                { /* <TextField name='menu.$.type'/> */ }
+                { /* <TextField name='menu.$.items'/> */ }
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
               </Segment>
