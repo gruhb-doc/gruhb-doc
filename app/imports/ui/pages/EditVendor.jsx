@@ -66,10 +66,6 @@ class EditVendor extends React.Component {
                 <TextField name='cuisine'/>
                 <TextField name='hours.monToFri'/>
                 <TextField name='hours.satToSun'/>
-                { /* <TextField name='menu.0'/> */ }
-                { /* <TextField name='menu.$'/> */ }
-                { /* <TextField name='menu.$.type'/> */ }
-                { /* <TextField name='menu.$.items'/> */ }
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
                 <HiddenField name='owner' />

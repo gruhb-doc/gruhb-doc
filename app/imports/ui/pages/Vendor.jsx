@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Divider, Grid, Header, Image, List, Loader, Segment } from 'semantic-ui-react';
 import { Meteor } from 'meteor/meteor';
-import { withTracker, Link } from 'meteor/react-meteor-data';
+import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Vendors } from '../../api/vendor/Vendor';
 
