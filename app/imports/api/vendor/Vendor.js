@@ -10,6 +10,11 @@ class VendorsCollection {
     // Define the Mongo collection.
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
+    // const menuItemsSchema = new SimpleSchema({
+    //   menuItems: Array,
+    //   'menuItems.$': String,
+    // });
+
     this.schema = new SimpleSchema({
       owner: String,
       name: String,
@@ -17,17 +22,15 @@ class VendorsCollection {
       campusLocation: String,
       description: String,
       rating: String,
-      photos: String,
-      hours: [{
-        monToFri: String,
-        satToSun: String,
-      }],
-      menu: [
-        {
-          type: String,
-          items: [String],
-        },
-      ],
+      photo: String,
+      hours: Object,
+      'hours.monToFri': String,
+      'hours.satToSun': String,
+      menu: Array,
+      'menu.$': Object,
+      'menu.$.type': String,
+      'menu.$.items': Array,
+      'menu.$.items.$': String,
       cost: String,
       takeout: String,
       dineIn: String,
