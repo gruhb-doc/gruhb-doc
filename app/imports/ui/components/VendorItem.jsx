@@ -61,6 +61,9 @@ class VendorItem extends React.Component {
            </Grid.Column>
          </Grid.Row>
        </Grid>
+          <Card.Content extra>
+            <Link to={`/edit/${this.props.vendor._id}`}>Edit</Link>
+          </Card.Content>
         </Card>
     );
   }

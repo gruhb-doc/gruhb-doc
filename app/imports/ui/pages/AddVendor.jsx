@@ -31,14 +31,16 @@ class AddVendor extends React.Component {
 
   /** On submit, insert the data. */
   submit(data, formRef) {
-    const { name, address, campusLocation, description, rating, photo,
+    const {
+      name, address, campusLocation, description, rating, photo,
       monToFri,
       satToSun,
       cost,
       takeout,
       dineIn,
       delivery,
-      cuisine } = data;
+      cuisine,
+    } = data;
     const owner = Meteor.user().username;
     Vendors.collection.insert({ name, address, campusLocation, description, rating, photo,
           hours: {
