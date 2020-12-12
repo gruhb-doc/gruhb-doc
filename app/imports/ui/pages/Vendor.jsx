@@ -98,6 +98,7 @@ class Vendor extends React.Component {
               <Header as='h2'>Menu</Header>
             </div>
             <Grid stackable columns={2}>
+              {console.log(this.props.doc)}
               {this.props.doc.menu.map((section, index) => <Grid.Column key={index}>
                 <Segment>
                   <List>

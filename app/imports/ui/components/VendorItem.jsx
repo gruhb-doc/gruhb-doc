@@ -12,7 +12,7 @@ class VendorItem extends React.Component {
              <Grid.Row>
                <Image
                    size ='medium'
-                   src={this.props.vendor.photos}
+                   src={this.props.vendor.photo}
                    width="200"
                    height="200"
                    // fluid
