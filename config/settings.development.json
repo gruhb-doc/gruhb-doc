@@ -69,7 +69,6 @@
     {
       "owner": "john@foo.com",
       "name": "Stir Fresh",
-
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
       "description": "Stir-Fresh serves up fresh and healthy Poke Bowls and Stir Frys. ",
@@ -374,7 +373,7 @@
       "rating": "3.5",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Starbucks_Sign_%282273980074%29.jpg",
       "hours": {
-        "monToThurs": "Currently Unavailable",
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
       },
       "menu": [
@@ -628,7 +627,7 @@
       "rating": "2.5",
       "photo": "https://www.foundation.cpp.edu/dining/assets/img/logo/subway-logo-400w.jpg",
       "hours": {
-        "monToThurs": "Currently Unavailable",
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
       },
       "menu": [
@@ -673,7 +672,14 @@
         "monToFri": "8AM - 3PM",
         "satToSun": "CLOSED"
       },
-      "menu": "Currently Unavailable",
+      "menu": [
+        {
+          "type": "Main",
+          "items": [
+            "Currently Unavailable"
+          ]
+        }
+      ],
       "cost": "$$",
       "takeout": "No",
       "dineIn": "No",
@@ -763,7 +769,7 @@
       "rating": "3",
       "photo": "https://images.squarespace-cdn.com/content/52228241e4b0b90e6916e5c6/1524407129019-XTE9CR8PUWLO8V0Z6D3S/3Le3.jpg?content-type=image%2Fjpeg",
       "hours": {
-        "monToThurs": "Currently Unavailable",
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
       },
       "menu": [

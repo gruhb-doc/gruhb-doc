@@ -10,11 +10,6 @@ class VendorsCollection {
     // Define the Mongo collection.
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
-    // const menuItemsSchema = new SimpleSchema({
-    //   menuItems: Array,
-    //   'menuItems.$': String,
-    // });
-
     this.schema = new SimpleSchema({
       owner: String,
       name: String,
