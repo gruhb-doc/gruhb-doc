@@ -700,57 +700,52 @@
       },
       "menu": [
         {
-          "type": "Daily Plate Lunch",
+          "type": "Monday",
           "items": [
-            {
-              "day": "Monday",
-              "items": [
-                "Pasta with Italian Sausage",
-                "Pasta with Meatballs",
-                "Pasta Combo with Italian Sausage and Meatballs",
-                "Salmon with Basil Tapenade",
-                "Chicken Marsala",
-                "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
-              ]
-            },
-            {
-              "day": "Tuesday",
-              "items": [
-                "Kalua Pork Quesadillas",
-                "Carne Asada Tacos",
-                "Salmon Tacos",
-                "Chicken Enchiladas"
-              ]
-            },
-            {
-              "day": "Wednesday",
-              "items": [
-                "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
-                "Broiled Pub Steak with Garlic and Mushrooms",
-                "Cajun Seared Fresh Salmon",
-                "BBQ Island Chicken"
-              ]
-            },
-            {
-              "day": "Thursday",
-              "items": [
-                "Roast Pork with Gravy",
-                "Ribeye Steak with Fresh Onion Rings",
-                "Fresh Island Catch with Lemon Butter Caper Sauce",
-                "Baked Chicken Parmesan with Marinara",
-                "Pasta with Clam Sauce",
-                "Garlic Jumbo Shrimp Skewers"
-              ]
-            },
-            {
-              "day": "Friday",
-              "items": [
-                "Braised Pork with Mushroom Gravy",
-                "Chicken Fried Steak with Country Gravy",
-                "Fried Shrimp and French Fries",
-                "Garlic Miso Chicken"
-              ]
-            }
+            "Pasta with Italian Sausage",
+            "Pasta with Meatballs",
+            "Pasta Combo with Italian Sausage and Meatballs",
+            "Salmon with Basil Tapenade",
+            "Chicken Marsala",
+            "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
+          ]
+        },
+        {
+          "type": "Tuesday",
+          "items": [
+            "Kalua Pork Quesadillas",
+            "Carne Asada Tacos",
+            "Salmon Tacos",
+            "Chicken Enchiladas"
+          ]
+        },
+        {
+          "type": "Wednesday",
+          "items": [
+            "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
+            "Broiled Pub Steak with Garlic and Mushrooms",
+            "Cajun Seared Fresh Salmon",
+            "BBQ Island Chicken"
+          ]
+        },
+        {
+          "type": "Thursday",
+          "items": [
+            "Roast Pork with Gravy",
+            "Ribeye Steak with Fresh Onion Rings",
+            "Fresh Island Catch with Lemon Butter Caper Sauce",
+            "Baked Chicken Parmesan with Marinara",
+            "Pasta with Clam Sauce",
+            "Garlic Jumbo Shrimp Skewers"
+          ]
+        },
+        {
+          "type": "Friday",
+          "items": [
+            "Braised Pork with Mushroom Gravy",
+            "Chicken Fried Steak with Country Gravy",
+            "Fried Shrimp and French Fries",
+            "Garlic Miso Chicken"
           ]
         }
       ],
@@ -869,7 +864,7 @@
       "address": "2424 Maile Way, Honolulu, HI 96822",
       "campusLocation": "Saunders Hall",
       "description": "Da Spot Health Foods & Juices offers diverse, healthy and affordable cuisine with a unique take on tasty dishes from around the world.",
-      "rating": "none",
+      "rating": "None",
       "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
@@ -922,7 +917,7 @@
       "address": "Sustainability Courtyard, Honolulu, HI 96822",
       "campusLocation": "Sustainability Courtyard",
       "description": "Want a sustainable selection for lunch? Try Govinda’s, which offers a 100% pure vegetarian menu, with items low in cholesterol and mostly organic.",
-      "rating": "none",
+      "rating": "None",
       "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/govindas_big-1024x375.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
@@ -930,78 +925,68 @@
       },
       "menu": [
         {
-          "type": "Daily Specials",
+          "type": "Monday",
           "items": [
-            {
-              "day": "Monday",
-              "items": [
-                "Kabocha Coconut Curry",
-                "Cauliflower Pea Curry",
-                "Khichri",
-                "Strawberry Halava"
-              ]
-            },
-            {
-              "day": "Tuesday",
-              "items": [
-                "Kofta Cabbage, Coconut Curry",
-                "Eggplant Potato",
-                "Curry",
-                "Khichri",
-                "Cranberry Orange Halava"
-              ]
-            },
-            {
-              "day": "Wednesday",
-              "items": [
-                "Yellow Thai Curry",
-                "Chickpea Spinach Curry",
-                "Khichri",
-                "Peanut Butter Halava"
-              ]
-            },
-            {
-              "day": "Thursday",
-              "items": [
-                "Red Thai Curry",
-                "String Bean Potato Curry",
-                "Khichri",
-                "Pineapple Coconut Halava"
-              ]
-            },
-            {
-              "day": "Friday",
-              "items": [
-                "Chili Beans",
-                "Cabbage Potato Curry",
-                "Khichri",
-                "Mixed Berry Halava"
-              ]
-            }
+            "Kabocha Coconut Curry",
+            "Cauliflower Pea Curry",
+            "Khichri",
+            "Strawberry Halava"
           ]
         },
         {
-          "type": "Plates",
+          "type": "Tuesday",
           "items": [
-            {
-              "type": "Mini Plate",
-              "includes": [
-                "One entrée",
-                "Rice",
-                "Halava",
-                "Salad/Soup"
-              ]
-            },
-            {
-              "type": "Full Plate",
-              "includes": [
-                "Two entrées",
-                "Rice",
-                "Salad",
-                "Soup",
-                "Halava"
-              ]
-            }
+            "Kofta Cabbage, Coconut Curry",
+            "Eggplant Potato",
+            "Curry",
+            "Khichri",
+            "Cranberry Orange Halava"
+          ]
+        },
+        {
+          "type": "Wednesday",
+          "items": [
+            "Yellow Thai Curry",
+            "Chickpea Spinach Curry",
+            "Khichri",
+            "Peanut Butter Halava"
+          ]
+        },
+        {
+          "type": "Thursday",
+          "items": [
+            "Red Thai Curry",
+            "String Bean Potato Curry",
+            "Khichri",
+            "Pineapple Coconut Halava"
+          ]
+        },
+        {
+          "type": "Friday",
+          "items": [
+            "Chili Beans",
+            "Cabbage Potato Curry",
+            "Khichri",
+            "Mixed Berry Halava"
+          ]
+        },
+        {
+          "type": "Mini Plate",
+          "items": [
+            "One entrée",
+            "Rice",
+            "Halava",
+            "Salad/Soup"
+          ]
+        },
+        {
+          "type": "Full Plate",
+          "items": [
+            "Two entrées",
+            "Rice",
+            "Salad",
+            "Soup",
+            "Halava"
           ]
         },
         {
@@ -1018,10 +1003,7 @@
         {
           "type": "Beverages",
           "items": [
-            {
-              "sizes": "12-20oz.",
-              "drink": "Ginger Mint Lemonade"
-            }
+            "Ginger Mint Lemonade"
           ]
         }
       ],
@@ -1037,7 +1019,7 @@
       "address": "Rotating Address",
       "campusLocation":  "Kennedy Theatre",
       "description": "Hot Tacos offers authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas with meat options like steak, chicken, marinated pork, and shredded beef. ",
-      "rating": "none",
+      "rating": "None",
       "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
@@ -1127,7 +1109,7 @@
       "address": "Krauss Hall, Honolulu, HI 96822",
       "campusLocation": "Krauss Hall",
       "description": "Traditional super ono ahi & tako poke; always fresh, premium ahi — never frozen! Made to order poke by the pound & poke bowls.",
-      "rating": "none",
+      "rating": "None",
       "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/onoseafood_big-1024x375.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
@@ -1162,7 +1144,7 @@
       "POST Building, Kuykendall Hall, School of Architecture, Korean Studies Building, Kennedy Theatre"
     ,
       "description": "Sistah Truck serves Korean-inspired local cuisine. Daily menu plate lunches include loco moco, chicken katsu, and Korean-style shoyu chicken.",
-      "rating": "none",
+      "rating": "None",
       "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/sistah_big.jpg",
       "hours": {
         "monToFri": "Currently Unavailable",
