@@ -14,28 +14,9 @@ const formSchema = new SimpleSchema({
   campusLocation: String,
   description: String,
   rating: Number,
-  photos: String,
-  // hours: [{
-  //   monToFri: String,
-  //   satToSun: String,
-  // }],
-  // menu: [
-  //   {
-  //     type: String,
-  //     items: [String],
-  //   },
-  // ],
-
-  // hours: Object,
-  // 'hours.monToFri': String,
-  // 'hours.satToSun': String,
+  photo: String,
   monToFri: String,
   satToSun: String,
-  // menu: Array,
-  // 'menu.$': Object,
-  // 'menu.$.type': String,
-  // 'menu.$.items': Array,
-  // 'menu.$.items.$': String,
   cost: String,
   takeout: String,
   dineIn: String,
@@ -50,32 +31,20 @@ class AddVendor extends React.Component {
 
   /** On submit, insert the data. */
   submit(data, formRef) {
-    const { name, address, campusLocation, description, rating, photos,
+    const { name, address, campusLocation, description, rating, photo,
       monToFri,
       satToSun,
-      // menu: [
-      //   // {
-      //   //   // type,
-      //   //   // items,
-      //   // },
-      // ],
       cost,
       takeout,
       dineIn,
       delivery,
       cuisine } = data;
     const owner = Meteor.user().username;
-    Vendors.collection.insert({ name, address, campusLocation, description, rating, photos,
-          hours: [{
+    Vendors.collection.insert({ name, address, campusLocation, description, rating, photo,
+          hours: {
             monToFri,
             satToSun,
-          }],
-          // menu: [
-          //   {
-          //     // type,
-          //     // items,
-          //   },
-          // ],
+          },
           menu: [],
           cost,
           takeout,
@@ -106,18 +75,14 @@ class AddVendor extends React.Component {
                 <TextField name='campusLocation'/>
                 <LongTextField name='description'/>
                 <NumField name='rating'/>
-                <TextField name='photos'/>
+                <TextField name='photo'/>
                 <NumField name='cost'/>
                 <TextField name='takeout'/>
                 <TextField name='dineIn'/>
                 <TextField name='delivery'/>
                 <TextField name='cuisine'/>
-                 {/* <TextField name='hours.monToFri'/> */}
-                 {/* <TextField name='hours.satToSun'/> */}
                 <TextField name='monToFri'/>
                 <TextField name='satToSun'/>
-                { /* <TextField name='menu.$.type'/> */ }
-                { /* <TextField name='menu.$.items'/> */ }
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
               </Segment>
