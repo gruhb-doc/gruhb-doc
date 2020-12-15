@@ -9,21 +9,21 @@ class VendorItem extends React.Component {
     return (
         <Card centered color='green'>
        <Grid>
-             <Grid.Row>
-               <Image
-                   size ='medium'
-                   src={this.props.vendor.photo}
-                   width="200"
-                   height="200"
-                   // fluid
-                   centered/>
-               </Grid.Row>
+         <Grid.Row>
+           <Image
+               size ='medium'
+               src={this.props.vendor.photo}
+               width="200"
+               height="200"
+               // fluid
+               centered/>
+         </Grid.Row>
          <Grid.Row>
            <Grid.Column width={5}>
              <Grid.Row>
                <Card.Content>
                  <Card.Header>
-                   <Link to={`/vendor/${this.props.vendor._id}`}>{this.props.vendor.name}</Link>
+                   <b><Link className="card-link" to={`/vendor/${this.props.vendor._id}`}>{this.props.vendor.name}</Link></b>
                  </Card.Header>
                </Card.Content>
              </Grid.Row>
