@@ -273,9 +273,18 @@
   margin-top: 3rem;
 }
 
+/* VENDOR IMAGE */
+#root > div > div.vendor-container > img {
+  height: 765px;
+}
+
 .vendor-header {
   color: #1f733d;
   font-size: 4rem;
+}
+
+.vendor-cuisine {
+  color: #8c8c8c;
 }
 
 /* VENDOR CUISINE */
