@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Divider, Grid, Header, Image, List, Loader, Segment } from 'semantic-ui-react';
+import { Container, Divider, Grid, Header, Image, List, Loader, Rating, Segment } from 'semantic-ui-react';
 import { Meteor } from 'meteor/meteor';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
@@ -18,12 +18,12 @@ class Vendor extends React.Component {
     return (
         <div className="vendor-container">
           {/* VENDOR IMAGE BANNER */}
-          <Image src={this.props.doc.photo} fluid />
+          <Image src={this.props.doc.photo} className="vendor-img" fluid />
 
           {/* VENDOR PAGE CONTENT */}
           <Container textAlign='justified'>
             <b className="vendor-header">{this.props.doc.name}</b>
-            <p>{this.props.doc.cuisine}</p>
+            <p className="vendor-cuisine">{this.props.doc.cuisine}</p>
             <div className="vendor-address">
               <b>
                 {this.props.doc.address}
@@ -38,7 +38,7 @@ class Vendor extends React.Component {
             <p className="vendor-desc">
               {this.props.doc.description}
             </p>
-            <p className="vendor-stat"><b>Rating: </b><span className="vendor-stat-val">{this.props.doc.rating} / 5</span></p>
+            <p className="vendor-stat"><b>Rating: </b><Rating icon='star' size='large' defaultRating={this.props.doc.rating} maxRating={5} /></p>
             <p className="vendor-stat"><b>Cost: </b><span className="vendor-stat-val">{this.props.doc.cost}</span></p>
             <Divider />
 
@@ -98,7 +98,6 @@ class Vendor extends React.Component {
               <Header as='h2'>Menu</Header>
             </div>
             <Grid stackable columns={2}>
-              {console.log(this.props.doc)}
               {this.props.doc.menu.map((section, index) => <Grid.Column key={index}>
                 <Segment>
                   <List>
