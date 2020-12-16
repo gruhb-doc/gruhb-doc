@@ -23,13 +23,13 @@
       "name": "Pizza Hut Express",
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
-      "description": "Pizza Hut is an American restaurant chain and international franchise which was founded in 1958 in Wichita, Kansas by Dan and Frank Carney. ",
+      "description": "You can always count on pizza to satisfy your hunger. Our Pizza Hut Express location offers all of your favorite Pizza Hut items for you to grab and go. Enjoy our daily Pizza Hut pan pizza specials, breadsticks, and popular Wingstreet items!",
       "rating": "3.5",
-      "photos": "https://www.inforum.com/1354435-fdj309-Pan-Pizza-Hut.jpg/alternates/BASE_LANDSCAPE/Pan%20Pizza%20Hut.jpg",
-      "hours": [{
+      "photo": "https://content-service.sodexomyway.com/media/Pizza-Hut_Personal%20Pizzas_1920x976_tcm247-8261_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
+      "hours": {
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Personal Pan Pizza",
@@ -69,16 +69,15 @@
     {
       "owner": "john@foo.com",
       "name": "Stir Fresh",
-
       "address": "2465 Campus Rd, UH Manoa Campus Center, Honolulu, HI, 96822",
       "campusLocation": "Campus Center",
       "description": "Stir-Fresh serves up fresh and healthy Poke Bowls and Stir Frys. ",
       "rating": "3",
-      "photos": "https://content-service.sodexomyway.com/media/stirfresh2_tcm247-32789_w1024_n.jpg?url=https://uhm.sodexomyway.com/",
-      "hours": [{
+      "photo": "https://content-service.sodexomyway.com/media/stirfresh2_tcm247-32789_w1024_n.jpg?url=https://uhm.sodexomyway.com/",
+      "hours": {
         "monToFri": "10AM - 2PM",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Poke Bowls",
@@ -144,11 +143,11 @@
       "campusLocation": "Campus Center",
       "description": "Offers a delicious mix of Korean, Chinese and even Filipino dishes to make your own personalized bentos.",
       "rating": "3.5",
-      "photos": "https://dining.staradvertiser.com/wp-content/uploads/2016/10/DO-101616-ALA-CARTE-AJA-SUSHI-AND-BENTO-AC-02.jpg",
-      "hours": [{
+      "photo": "https://dining.staradvertiser.com/wp-content/uploads/2016/10/DO-101616-ALA-CARTE-AJA-SUSHI-AND-BENTO-AC-02.jpg",
+      "hours": {
         "monToFri": "6:30AM - 4PM",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Appetizers",
@@ -213,11 +212,11 @@
       "campusLocation": "Campus Center",
       "description": "Jamba, formerly known as Jamba Juice, is a company that produces blended fruit and vegetable juices, smoothies and similar products.",
       "rating": "3",
-      "photos": "https://assets.digitalservices.ggp.com/content/dam/rw-2/images/tenant-images/tenant-logos/aja-logo-553x260-v1.png",
-      "hours": [{
+      "photo": "https://content-service.sodexomyway.com/media/Sodexo-56_tcm247-32584_w1920_h976.jpg?url=https://uhm.sodexomyway.com/",
+      "hours": {
         "monToFri": "8AM - 4PM",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Secret Menu Smoothies",
@@ -372,12 +371,11 @@
       "campusLocation": "Campus Center",
       "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington.",
       "rating": "3.5",
-      "photos": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Starbucks_Sign_%282273980074%29.jpg",
-      "hours": [{
-        "monToThurs": "7M - 7PM",
-        "friday": "7AM - 6PM",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Starbucks_Sign_%282273980074%29.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Seasonal Beverages",
@@ -627,12 +625,11 @@
       "campusLocation": "Campus Center",
       "description": "Subway is an American fast food restaurant franchise that primarily sells submarine sandwiches, salads and beverages. It was founded by Fred DeLuca and Peter Buck in 1965 and has expanded to become a global franchise.",
       "rating": "2.5",
-      "photos": "https://www.foundation.cpp.edu/dining/assets/img/logo/subway-logo-400w.jpg",
-      "hours": [{
-        "monToThurs": "7AM - 7PM",
-        "friday": "7AM - 6PM",
+      "photo": "https://www.foundation.cpp.edu/dining/assets/img/logo/subway-logo-400w.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Sandwiches",
@@ -670,12 +667,19 @@
       "campusLocation": "Campus Center",
       "description": "Simply To Go carries a variety of health food brands, such as Kashi, Kopali Organics and Bare Fruit Snacks",
       "rating": "4.5",
-      "photos": "https://content-service.sodexomyway.com/media/STG%20BG%20LOGO_tcm247-102641.jpg?url=https://uhm.sodexomyway.com/",
-      "hours": [{
+      "photo": "https://content-service.sodexomyway.com/media/STG%20BG%20LOGO_tcm247-102641.jpg?url=https://uhm.sodexomyway.com/",
+      "hours": {
         "monToFri": "8AM - 3PM",
         "satToSun": "CLOSED"
-      }],
-      "menu": "Currently Unavailable",
+      },
+      "menu": [
+        {
+          "type": "Main",
+          "items": [
+            "Currently Unavailable"
+          ]
+        }
+      ],
       "cost": "$$",
       "takeout": "No",
       "dineIn": "No",
@@ -689,64 +693,59 @@
       "campusLocation": "Campus Center",
       "description": "Currently Unavailable",
       "rating": "3.5",
-      "photos": "https://bloximages.newyork1.vip.townnews.com/manoanow.org/content/tncms/assets/v3/editorial/3/43/34358f1c-d372-11e9-80aa-d752147afa46/5d7709ec3d5c6.image.jpg?resize=750%2C500",
-      "hours": [{
+      "photo": "https://bloximages.newyork1.vip.townnews.com/manoanow.org/content/tncms/assets/v3/editorial/3/43/34358f1c-d372-11e9-80aa-d752147afa46/5d7709ec3d5c6.image.jpg?resize=750%2C500",
+      "hours": {
         "monToFri": "11AM - 2PM",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
-          "type": "Daily Plate Lunch",
+          "type": "Monday",
           "items": [
-            {
-              "day": "Monday",
-              "items": [
-                "Pasta with Italian Sausage",
-                "Pasta with Meatballs",
-                "Pasta Combo with Italian Sausage and Meatballs",
-                "Salmon with Basil Tapenade",
-                "Chicken Marsala",
-                "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
-              ]
-            },
-            {
-              "day": "Tuesday",
-              "items": [
-                "Kalua Pork Quesadillas",
-                "Carne Asada Tacos",
-                "Salmon Tacos",
-                "Chicken Enchiladas"
-              ]
-            },
-            {
-              "day": "Wednesday",
-              "items": [
-                "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
-                "Broiled Pub Steak with Garlic and Mushrooms",
-                "Cajun Seared Fresh Salmon",
-                "BBQ Island Chicken"
-              ]
-            },
-            {
-              "day": "Thursday",
-              "items": [
-                "Roast Pork with Gravy",
-                "Ribeye Steak with Fresh Onion Rings",
-                "Fresh Island Catch with Lemon Butter Caper Sauce",
-                "Baked Chicken Parmesan with Marinara",
-                "Pasta with Clam Sauce",
-                "Garlic Jumbo Shrimp Skewers"
-              ]
-            },
-            {
-              "day": "Friday",
-              "items": [
-                "Braised Pork with Mushroom Gravy",
-                "Chicken Fried Steak with Country Gravy",
-                "Fried Shrimp and French Fries",
-                "Garlic Miso Chicken"
-              ]
-            }
+            "Pasta with Italian Sausage",
+            "Pasta with Meatballs",
+            "Pasta Combo with Italian Sausage and Meatballs",
+            "Salmon with Basil Tapenade",
+            "Chicken Marsala",
+            "Cheese Tortellini with choice of Marinara or Basil Pesto (Vegetarian)"
+          ]
+        },
+        {
+          "type": "Tuesday",
+          "items": [
+            "Kalua Pork Quesadillas",
+            "Carne Asada Tacos",
+            "Salmon Tacos",
+            "Chicken Enchiladas"
+          ]
+        },
+        {
+          "type": "Wednesday",
+          "items": [
+            "BBQ Pulled Pork Sandwich with Sweet Potato Fries",
+            "Broiled Pub Steak with Garlic and Mushrooms",
+            "Cajun Seared Fresh Salmon",
+            "BBQ Island Chicken"
+          ]
+        },
+        {
+          "type": "Thursday",
+          "items": [
+            "Roast Pork with Gravy",
+            "Ribeye Steak with Fresh Onion Rings",
+            "Fresh Island Catch with Lemon Butter Caper Sauce",
+            "Baked Chicken Parmesan with Marinara",
+            "Pasta with Clam Sauce",
+            "Garlic Jumbo Shrimp Skewers"
+          ]
+        },
+        {
+          "type": "Friday",
+          "items": [
+            "Braised Pork with Mushroom Gravy",
+            "Chicken Fried Steak with Country Gravy",
+            "Fried Shrimp and French Fries",
+            "Garlic Miso Chicken"
           ]
         }
       ],
@@ -763,12 +762,11 @@
       "campusLocation": "Campus Center (Near UH Manoa Recreational Center)",
       "description": "Vietnamese cafe chain serving banh-mi & other sandwiches on artisanal bread, pho & baked goods.",
       "rating": "3",
-      "photos": "https://images.squarespace-cdn.com/content/52228241e4b0b90e6916e5c6/1524407129019-XTE9CR8PUWLO8V0Z6D3S/3Le3.jpg?content-type=image%2Fjpeg",
-      "hours": [{
-        "monToThurs": "10AM - 8PM",
-        "friday": "10AM - 9PM",
+      "photo": "https://images.squarespace-cdn.com/content/52228241e4b0b90e6916e5c6/1524407129019-XTE9CR8PUWLO8V0Z6D3S/3Le3.jpg?content-type=image%2Fjpeg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Sandwiches",
@@ -866,11 +864,12 @@
       "address": "2424 Maile Way, Honolulu, HI 96822",
       "campusLocation": "Saunders Hall",
       "description": "Da Spot Health Foods & Juices offers diverse, healthy and affordable cuisine with a unique take on tasty dishes from around the world.",
-      "rating": "none",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "rating": "None",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/daspot_big.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
           "type": "Main",
@@ -918,85 +917,76 @@
       "address": "Sustainability Courtyard, Honolulu, HI 96822",
       "campusLocation": "Sustainability Courtyard",
       "description": "Want a sustainable selection for lunch? Try Govinda’s, which offers a 100% pure vegetarian menu, with items low in cholesterol and mostly organic.",
-      "rating": "none",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/govindas_big-1024x375.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "rating": "None",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/govindas_big-1024x375.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
-          "type": "Daily Specials",
+          "type": "Monday",
           "items": [
-            {
-              "day": "Monday",
-              "items": [
-                "Kabocha Coconut Curry",
-                "Cauliflower Pea Curry",
-                "Khichri",
-                "Strawberry Halava"
-              ]
-            },
-            {
-              "day": "Tuesday",
-              "items": [
-                "Kofta Cabbage, Coconut Curry",
-                "Eggplant Potato",
-                "Curry",
-                "Khichri",
-                "Cranberry Orange Halava"
-              ]
-            },
-            {
-              "day": "Wednesday",
-              "items": [
-                "Yellow Thai Curry",
-                "Chickpea Spinach Curry",
-                "Khichri",
-                "Peanut Butter Halava"
-              ]
-            },
-            {
-              "day": "Thursday",
-              "items": [
-                "Red Thai Curry",
-                "String Bean Potato Curry",
-                "Khichri",
-                "Pineapple Coconut Halava"
-              ]
-            },
-            {
-              "day": "Friday",
-              "items": [
-                "Chili Beans",
-                "Cabbage Potato Curry",
-                "Khichri",
-                "Mixed Berry Halava"
-              ]
-            }
+            "Kabocha Coconut Curry",
+            "Cauliflower Pea Curry",
+            "Khichri",
+            "Strawberry Halava"
           ]
         },
         {
-          "type": "Plates",
+          "type": "Tuesday",
           "items": [
-            {
-              "type": "Mini Plate",
-              "includes": [
-                "One entrée",
-                "Rice",
-                "Halava",
-                "Salad/Soup"
-              ]
-            },
-            {
-              "type": "Full Plate",
-              "includes": [
-                "Two entrées",
-                "Rice",
-                "Salad",
-                "Soup",
-                "Halava"
-              ]
-            }
+            "Kofta Cabbage, Coconut Curry",
+            "Eggplant Potato",
+            "Curry",
+            "Khichri",
+            "Cranberry Orange Halava"
+          ]
+        },
+        {
+          "type": "Wednesday",
+          "items": [
+            "Yellow Thai Curry",
+            "Chickpea Spinach Curry",
+            "Khichri",
+            "Peanut Butter Halava"
+          ]
+        },
+        {
+          "type": "Thursday",
+          "items": [
+            "Red Thai Curry",
+            "String Bean Potato Curry",
+            "Khichri",
+            "Pineapple Coconut Halava"
+          ]
+        },
+        {
+          "type": "Friday",
+          "items": [
+            "Chili Beans",
+            "Cabbage Potato Curry",
+            "Khichri",
+            "Mixed Berry Halava"
+          ]
+        },
+        {
+          "type": "Mini Plate",
+          "items": [
+            "One entrée",
+            "Rice",
+            "Halava",
+            "Salad/Soup"
+          ]
+        },
+        {
+          "type": "Full Plate",
+          "items": [
+            "Two entrées",
+            "Rice",
+            "Salad",
+            "Soup",
+            "Halava"
           ]
         },
         {
@@ -1013,10 +1003,7 @@
         {
           "type": "Beverages",
           "items": [
-            {
-              "sizes": "12-20oz.",
-              "drink": "Ginger Mint Lemonade"
-            }
+            "Ginger Mint Lemonade"
           ]
         }
       ],
@@ -1032,11 +1019,12 @@
       "address": "Rotating Address",
       "campusLocation":  "Kennedy Theatre",
       "description": "Hot Tacos offers authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas with meat options like steak, chicken, marinated pork, and shredded beef. ",
-      "rating": "none",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "rating": "None",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/hottacos_big.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
           "type": "Main",
@@ -1069,10 +1057,11 @@
       "campusLocation":"POST Building",
       "description": "Kamitoku Ramen specializes in a Tottori-style beef bone ramen.",
       "rating": "4",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/kamitoku_big-1024x375.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/kamitoku_big-1024x375.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
           "type": "Ramen",
@@ -1120,11 +1109,12 @@
       "address": "Krauss Hall, Honolulu, HI 96822",
       "campusLocation": "Krauss Hall",
       "description": "Traditional super ono ahi & tako poke; always fresh, premium ahi — never frozen! Made to order poke by the pound & poke bowls.",
-      "rating": "none",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/onoseafood_big-1024x375.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "rating": "None",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/onoseafood_big-1024x375.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
           "type": "Main",
@@ -1151,14 +1141,15 @@
       "name": "Sistah Truck",
       "address": "Rotating Address",
       "campusLocation":
-        "POST Building, Kuykendall Hall, School of Architecture, Korean Studies Building, Kennedy Theatre"
-      ,
+      "POST Building, Kuykendall Hall, School of Architecture, Korean Studies Building, Kennedy Theatre"
+    ,
       "description": "Sistah Truck serves Korean-inspired local cuisine. Daily menu plate lunches include loco moco, chicken katsu, and Korean-style shoyu chicken.",
-      "rating": "none",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/sistah_big.jpg",
-      "hours": [{
-        "monToFri": "Currently Unavailable"
-      }],
+      "rating": "None",
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/sistah_big.jpg",
+      "hours": {
+        "monToFri": "Currently Unavailable",
+        "satToSun": "CLOSED"
+      },
       "menu": [
         {
           "type": "Daily Specials",
@@ -1217,11 +1208,11 @@
       "campusLocation": "Paradise Palms",
       "description": "in Hawaii, is a Hawaiian-themed franchise restaurant chain based in Honolulu, Hawaii, centered on the Hawaiian plate lunch. ",
       "rating": "None",
-      "photos": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3000,w_4000,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/BBQ_yaf1oh.jpg",
-      "hours": [{
+      "photo": "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3000,w_4000,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/BBQ_yaf1oh.jpg",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Main",
@@ -1256,11 +1247,11 @@
       "campusLocation": "Paradise Palms",
       "description": "Dunkin', also known as Dunkin' Donuts, is an American multinational coffee and doughnut company.",
       "rating": "3",
-      "photos": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Dunkin_Donuts_%2814678867240%29.jpg",
-      "hours": [{
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Dunkin_Donuts_%2814678867240%29.jpg",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Main",
@@ -1292,11 +1283,11 @@
       "campusLocation": "Paradise Palms",
       "description": "Chic indoor-outdoor resort eatery serving local fare for breakfast, lunch & dinner plus cocktails.",
       "rating": "None",
-      "photos": "https://holohologrill.com/wp-content/uploads/2017/03/hg_logo_01_000000_818x276_optimized.png",
-      "hours": [{
+      "photo": "https://holohologrill.com/wp-content/uploads/2017/03/hg_logo_01_000000_818x276_optimized.png",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Main",
@@ -1339,11 +1330,11 @@
       "campusLocation": "Paradise Palms",
       "description": "Lasoon offers natural home-cooked Nepali and Indian food for everyone.",
       "rating": "4.5",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/lasoon_logo.png",
-      "hours": [{
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/lasoon_logo.png",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Vegan/Vegetarian",
@@ -1392,11 +1383,11 @@
       "campusLocation": "Paradise Palms",
       "description": "Crepes",
       "rating": "4.5",
-      "photos": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/crepe_big.jpg",
-      "hours": [{
+      "photo": "https://manoa.hawaii.edu/food/wp-content/uploads/sites/37/2020/05/crepe_big.jpg",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Savory Crepes",
@@ -1449,11 +1440,11 @@
       "campusLocation": "Paradise Palms",
       "description": "Panda Express is an American fast food restaurant chain which serves American Chinese cuisine. ",
       "rating": "4",
-      "photos": "https://4.bp.blogspot.com/-UWKhZOFogFE/WFrpQwTICxI/AAAAAAAAnLI/0VhVdn0R4wMxevOCs1Hc6Zs33IMgYTLsQCLcB/s320/IMG_8958.jpg",
-      "hours": [{
+      "photo": "https://4.bp.blogspot.com/-UWKhZOFogFE/WFrpQwTICxI/AAAAAAAAnLI/0VhVdn0R4wMxevOCs1Hc6Zs33IMgYTLsQCLcB/s320/IMG_8958.jpg",
+      "hours": {
         "monToFri": "Currently Unavailable",
         "satToSun": "CLOSED"
-      }],
+      },
       "menu": [
         {
           "type": "Mixed Veggies",

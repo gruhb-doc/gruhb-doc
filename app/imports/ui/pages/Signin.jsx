@@ -56,7 +56,7 @@ export default class Signin extends React.Component {
                 />
             )}
             <Header as="h2" textAlign="center" inverted>
-              Login to GR<span className="nav-header-mid">UH</span>B
+              Login to GR<a className="nav-header-mid">UH</a>B
             </Header>
             <Form onSubmit={this.submit}>
               <Segment stacked >
@@ -82,7 +82,7 @@ export default class Signin extends React.Component {
                 />
                 <Form.Button className='signin-submit' id="signin-form-submit" content="Log In" />
                 <div>
-                New to GR<span className="nav-header-mid">UH</span>B?
+                New to GR<a className="nav-header-mid">UH</a>B?
                 <Link to="/signup"> Sign up</Link>
                 </div>
               </Segment>

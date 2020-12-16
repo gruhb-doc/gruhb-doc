@@ -14,7 +14,6 @@ class NavBar extends React.Component {
         <div className="nav-header">
       <Menu style={menuStyle} attached="top" borderless inverted>
         {this.props.currentUser ? (
-
             [
                 <Menu.Item as={NavLink} activeClassName="active" exact to="/homescreen" key='homescreen'>
                   <div className="nav-header-font">
@@ -27,39 +26,7 @@ class NavBar extends React.Component {
 
         </Menu.Item>]}
         {this.props.currentUser ? (
-            [<Menu.Item as={NavLink} activeClassName="active" exact to="/add" key='add'>Add Stuff</Menu.Item>]
-        ) : ''}
-        {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
-            <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
-        ) : ''}
-
-        {this.props.currentUser ? (
-            [
-              <Menu.Item as={NavLink} activeClassName="active" exact to="/listvendors" key='list'>List Stuff</Menu.Item>]
-        ) : ''}
-        {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
-            <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
-        ) : ''}
-
-        {this.props.currentUser ? (
-            [
-              <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>List Stuff</Menu.Item>]
-        ) : ''}
-        {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
-            <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
-        ) : ''}
-
-        {this.props.currentUser ? (
-            [
-              // <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>List Stuff</Menu.Item>
-                <Dropdown key='list' item text='Vendors'>
-                  <Dropdown.Menu>
-                    <Dropdown.Item>Vendor Name Here</Dropdown.Item>
-                    <Dropdown.Item>Vendor Name Here</Dropdown.Item>
-                    <Dropdown.Item>Vendor Name Here</Dropdown.Item>
-                  </Dropdown.Menu>
-                </Dropdown>,
-            ]
+            [<Menu.Item as={NavLink} activeClassName="active" exact to="/addvendor" key='addvendor'>Add Vendor</Menu.Item>]
         ) : ''}
 
         {this.props.currentUser ? (
