@@ -10,7 +10,7 @@ function gatherInfo(vendorInfo) {
 
 let importedVendorData;
 
-const source = _.map(importedVendorData, gatherInfo);
+let source;
 
 const initialState = {
   loading: false,
@@ -36,6 +36,7 @@ function exampleReducer(state, action) {
 
 function SearchExampleStandard(vendorDataImport) {
   this.importedVendorData = vendorDataImport;
+  this.source = _.map(importedVendorData, gatherInfo);
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
   const { loading, results, value } = state;
 
