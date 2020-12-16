@@ -63,7 +63,7 @@
             repeat-y;
     background-size: cover;
 
-    height: 3400px !important;
+    height: 4500px !important;
     width: 100%;
     margin-top: -12px;
     transition: all 0.2s linear;
@@ -176,19 +176,6 @@
 #signin-form-password {
   border: 1px solid #53d480 !important;
 }
-
-.homescreen-bg-img {
-  background:
-      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(images/homescreen_bg.jpg),
-      no-repeat center center;
-  background-size: cover;
-  height: 1040px;
-  width: 100%;
-  margin-top: -12px;
-  transition: all 0.2s linear;
-}
-
 
 .ui.fluid.image.landing-bottom-image {
   height: 100%;
