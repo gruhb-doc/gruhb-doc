@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Card, Loader } from 'semantic-ui-react';
+import { Card, Loader, Grid, Search } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Vendors } from '../../api/vendor/Vendor';
@@ -12,14 +12,24 @@ class HomeScreen extends React.Component {
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
 
+  // search bar code above
   renderPage() {
     return (
         <div>
           <div className="homescreen-bg-img">
           <div className="homescreen-card-container">
-            <Card.Group itemsPerRow={3}>
-              {this.props.vendors.map((vendor) => <VendorItem key={vendor._id} vendor={vendor} />)}
-            </Card.Group>
+            <Grid>
+              <Grid.Row>
+                <Grid.Column width={3}>
+                  // Search bar should be here
+                </Grid.Column>
+                <Grid.Column width={13}>
+                  <Card.Group itemsPerRow={3}>
+                    {this.props.vendors.map((vendor) => <VendorItem key={vendor._id} vendor={vendor} />)}
+                  </Card.Group>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
           </div>
         </div>
 
