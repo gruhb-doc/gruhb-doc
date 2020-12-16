@@ -35,6 +35,9 @@ function exampleReducer(state, action) {
 }
 
 function SearchExampleStandard(vendorDataImport) {
+  // TEST CODE
+  console.log(vendorDataImport);
+  // TEST CODE
   this.importedVendorData = vendorDataImport;
   this.source = _.map(importedVendorData, gatherInfo);
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
