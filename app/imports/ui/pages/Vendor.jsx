@@ -138,7 +138,6 @@ export default withTracker(({ match }) => {
   // Get access to Vendor documents.
   const subscription = Meteor.subscribe(Vendors.userPublicationName);
   return {
-    // doc: Stuffs.collection.findOne(documentId),
     doc: Vendors.collection.findOne(documentId),
     ready: subscription.ready(),
   };

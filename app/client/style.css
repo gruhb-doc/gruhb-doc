@@ -8,7 +8,6 @@
   height: 1040px;
   width: 100%;
   margin-top: -12px;
-  /*filter: blur(2px);*/
   transition: all 0.2s linear;
 }
 
@@ -22,7 +21,6 @@
   padding: 20px;
   text-align: center;
 }
-
 
 .landing-card-container {
   width: 100%
@@ -52,7 +50,6 @@
     text-align: center;
 }
 
-
 .landing-card-container {
     width: 100%
 }
@@ -71,7 +68,6 @@
     margin-top: -12px;
     transition: all 0.2s linear;
 }
-
 
 .homescreen-card-container {
     position: relative;
@@ -94,10 +90,6 @@
   opacity: 0.4;
 }
 
-
-
-
-
 #root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
   color: white;
   font-size: 12rem;
@@ -113,30 +105,14 @@
   font-size: 2rem;
 }
 
-/*.nav-header {*/
-/*  height: 150px;*/
-/*  background: #1b1c1d;*/
-/*  display: flex;*/
-
-/*  !*text-align: center !important;*!*/
-/*  !*justify-content: center !important;*!*/
-/*  !*flex-direction: row;*!*/
-/*  !*align-items: center !important;*!*/
-/*}*/
-
 .ui.borderless.inverted.top.attached.menu {
   display: flex;
   justify-content:center;
 }
 
-
 .nav-header-mid {
   color: #53d480;
 }
-
-/*.nav-header-font {*/
-/*  font-size: 50px !important;*/
-/*}*/
 
 .h1.ui.header {
   font-size: 20px;
