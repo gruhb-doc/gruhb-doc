@@ -22,7 +22,7 @@ class HomeScreen extends React.Component {
             <Grid>
               <Grid.Row>
                 <Grid.Column width={3}>
-                  <SearchBar vendors={this.props.vendors}/>
+                  <SearchBar key={1} vendorData={this.props.vendors}/>
                 </Grid.Column>
                 <Grid.Column width={13}>
                   <Card.Group itemsPerRow={3}>

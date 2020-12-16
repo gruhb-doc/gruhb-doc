@@ -1,14 +1,24 @@
 import _ from 'lodash';
 import React from 'react';
-import { Search, Grid, Header, Segment } from 'semantic-ui-react';
+import { Search } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
-const source = _.times(5, () => ({
-  title: this.props.vendors.name,
-  description: this.props.vendors.description,
-  image: this.props.vendors.photo,
-  price: this.props.vendors.cost,
-}));
+class SearchBar2 extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+    this.source = this.source.bind(this);
+  }
+}
+SearchBar2.propTypes = {
+  vendorData: PropTypes.object.isRequired,
+};
+
+function gatherInfo(vendorInfo) {
+  const sortedInfo = { title: vendorInfo.name, description: vendorInfo.description, image: vendorInfo.photo, price: vendorInfo.cost };
+  return sortedInfo;
+
+}
+const source = _.map(SearchBar2.props.vendorData, gatherInfo);
 
 const initialState = {
   loading: false,
@@ -61,8 +71,6 @@ function SearchExampleStandard() {
     }, []);
 
   return (
-      <Grid>
-        <Grid.Column width={6}>
           <Search
               loading={loading}
               onResultSelect={(e, data) => dispatch({ type: 'UPDATE_SELECTION', selection: data.result.title })
@@ -71,26 +79,6 @@ function SearchExampleStandard() {
               results={results}
               value={value}
           />
-        </Grid.Column>
-
-        <Grid.Column width={10}>
-          <Segment>
-            <Header>State</Header>
-            <pre style={{ overflowX: 'auto' }}>
-            {JSON.stringify({ loading, results, value }, null, 2)}
-          </pre>
-            <Header>Options</Header>
-            <pre style={{ overflowX: 'auto' }}>
-            {JSON.stringify(source, null, 2)}
-          </pre>
-          </Segment>
-        </Grid.Column>
-      </Grid>
   );
 }
-class SearchBar extends React.Component {}
-SearchBar.propTypes = {
-  vendors: PropTypes.array.isRequired,
-  ready: PropTypes.bool.isRequired,
-};
 export default SearchExampleStandard;
