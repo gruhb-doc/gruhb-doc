@@ -63,6 +63,9 @@ function SearchExampleStandard(vendorDataImport) {
       clearTimeout(timeoutRef.current);
     }, []);
 
+  // TEST CODE
+  console.log('This is the data that is being given into SearchBar Class');
+  console.log(source);
   return (
           <Search
               loading={loading}
