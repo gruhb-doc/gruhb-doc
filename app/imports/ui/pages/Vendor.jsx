@@ -38,8 +38,10 @@ class Vendor extends React.Component {
             <p className="vendor-desc">
               {this.props.doc.description}
             </p>
-            <p className="vendor-stat"><b>Rating: </b><Rating icon='star' size='large' defaultRating={this.props.doc.rating} maxRating={5} /></p>
-            <p className="vendor-stat"><b>Cost: </b><span className="vendor-stat-val">{this.props.doc.cost}</span></p>
+            <span className="vendor-stat"><b>Rating: </b></span>
+            <Rating icon='star' size='large' defaultRating={this.props.doc.rating} maxRating={5} disabled />
+            <p className="vendor-stat"><b>Cost: </b><span className="vendor-stat-val">{this.props.doc.cost}</span>
+            </p>
             <Divider />
 
             {/* VENDOR HOURS */}
