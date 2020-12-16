@@ -67,10 +67,8 @@
     background-size: cover;
 
     height: 3400px !important;
-    /*height: 100%;*/
     width: 100%;
     margin-top: -12px;
-    /*filter: blur(2px);*/
     transition: all 0.2s linear;
 }
 
@@ -79,6 +77,21 @@
     position: relative;
     width: 100%;
     padding: 100px;
+}
+
+.card-link {
+  color: #1f733d;
+  font-size: 30px;
+  transition: 0.3s all ease-in;
+}
+
+.card-link:hover {
+  color: #2ab95d;
+  opacity: 0.8;
+}
+
+.card-link:active {
+  opacity: 0.4;
 }
 
 
