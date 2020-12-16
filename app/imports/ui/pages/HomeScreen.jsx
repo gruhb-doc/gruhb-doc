@@ -1,10 +1,11 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Card, Loader, Grid, Search } from 'semantic-ui-react';
+import { Card, Loader, Grid } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Vendors } from '../../api/vendor/Vendor';
 import VendorItem from '../components/VendorItem';
+import SearchBar from '../components/SearchBar2';
 
 /** A simple static component to render some text for the landing page. */
 class HomeScreen extends React.Component {
@@ -21,7 +22,7 @@ class HomeScreen extends React.Component {
             <Grid>
               <Grid.Row>
                 <Grid.Column width={3}>
-                  // Search bar should be here
+                  <SearchBar vendors={this.props.vendors}/>
                 </Grid.Column>
                 <Grid.Column width={13}>
                   <Card.Group itemsPerRow={3}>
