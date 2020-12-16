@@ -1,9 +1,12 @@
 import _ from 'lodash';
 import React from 'react';
 import { Search } from 'semantic-ui-react';
+import {Vendors} from '../../api/vendor/Vendor';
 
 function gatherInfo(vendorInfo) {
   const sortedInfo = { title: vendorInfo.name, description: vendorInfo.description, image: vendorInfo.photo, price: vendorInfo.cost };
+  console.log('Sorted Info');
+  console.log(sortedInfo);
   return sortedInfo;
 
 }
@@ -36,9 +39,14 @@ function exampleReducer(state, action) {
 
 function SearchExampleStandard(vendorDataImport) {
   // TEST CODE
+  console.log('vendorDataImport');
   console.log(vendorDataImport);
   // TEST CODE
   this.importedVendorData = vendorDataImport;
+  // TEST CODE
+  console.log('importedVendorData');
+  console.log(importedVendorData);
+  // TEST CODE
   this.source = _.map(importedVendorData, gatherInfo);
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
   const { loading, results, value } = state;
