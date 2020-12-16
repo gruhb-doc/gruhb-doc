@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React from 'react';
 import { Search } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
@@ -16,8 +17,6 @@ class SearchBar extends React.Component {
     value: '',
   };
 
-  function
-
   exampleReducer(state, action) {
     switch (action.type) {
       case 'CLEAN_QUERY':
@@ -33,8 +32,6 @@ class SearchBar extends React.Component {
         throw new Error();
     }
   }
-
-  function
 
   SearchExampleStandard() {
     const [state, dispatch] = React.useReducer(this.exampleReducer, this.initialState);
@@ -56,7 +53,7 @@ class SearchBar extends React.Component {
 
         dispatch({
           type: 'FINISH_SEARCH',
-          results: _.filter(source, isMatch),
+          results: _.filter(this.source, isMatch),
         });
       }, 300);
     }, []);
