@@ -1,24 +1,16 @@
 import _ from 'lodash';
 import React from 'react';
 import { Search } from 'semantic-ui-react';
-import PropTypes from 'prop-types';
-
-class SearchBar2 extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-    this.source = this.source.bind(this);
-  }
-}
-SearchBar2.propTypes = {
-  vendorData: PropTypes.object.isRequired,
-};
 
 function gatherInfo(vendorInfo) {
   const sortedInfo = { title: vendorInfo.name, description: vendorInfo.description, image: vendorInfo.photo, price: vendorInfo.cost };
   return sortedInfo;
 
 }
-const source = _.map(SearchBar2.props.vendorData, gatherInfo);
+
+let importedVendorData;
+
+const source = _.map(importedVendorData, gatherInfo);
 
 const initialState = {
   loading: false,
@@ -42,7 +34,8 @@ function exampleReducer(state, action) {
   }
 }
 
-function SearchExampleStandard() {
+function SearchExampleStandard(vendorDataImport) {
+  this.importedVendorData = vendorDataImport;
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
   const { loading, results, value } = state;
 
