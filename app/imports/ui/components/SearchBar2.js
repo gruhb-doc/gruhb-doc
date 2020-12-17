@@ -10,8 +10,6 @@ function gatherInfo(vendorInfo) {
 
 }
 
-let importedVendorData = { };
-
 let source;
 
 const initialState = {
@@ -37,19 +35,16 @@ function exampleReducer(state, action) {
 }
 
 function SearchExampleStandard(vendorDataImport) {
-  // TEST CODE
+  // TEST CODE ---------------------v
   console.log('vendorDataImport');
   console.log(vendorDataImport);
-  // TEST CODE
-  for (let i = 0; i < vendorDataImport.length; i++) {
-    importedVendorData[i] = vendorDataImport[i].slice();
-    console.log(`transferred vendor data ${i}: ${importedVendorData[i]}`);
-  }
-  // TEST CODE
-  console.log('importedVendorData');
-  console.log(importedVendorData);
-  // TEST CODE
-  this.source = _.map(importedVendorData, gatherInfo);
+  // TEST CODE -------------------------^
+
+  this.source = _.map(vendorDataImport, gatherInfo);
+  // TEST CODE ----------------------------v
+  console.log('source');
+  console.log(this.source);
+  // TEST CODE -------------------------------^
   const [state, dispatch] = React.useReducer(exampleReducer, initialState);
   const { loading, results, value } = state;
 
