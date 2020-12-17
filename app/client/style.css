@@ -54,6 +54,22 @@
     width: 100%
 }
 
+#root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
+  color: white;
+  font-size: 12rem;
+}
+
+.landing-header-mid {
+  color: #53d480;
+
+}
+
+.landing-text {
+  color: #56ff91;
+  font-size: 2rem;
+}
+
+/* USER HOMESCREEN */
 .homescreen-bg-img {
     background:
             linear-gradient(rgba(0, 0, 0, 0.4),
@@ -75,6 +91,18 @@
     padding: 100px;
 }
 
+.card-img {
+  height: 200px;
+  width: 450px;
+}
+
+.card-link,
+.card-meta,
+.card-desc,
+.card-address {
+  margin-left: 14px;
+}
+
 .card-link {
   color: #1f733d;
   font-size: 30px;
@@ -88,21 +116,6 @@
 
 .card-link:active {
   opacity: 0.4;
-}
-
-#root > div > div:nth-child(2) > div.ui.container.landing-container > h2 {
-  color: white;
-  font-size: 12rem;
-}
-
-.landing-header-mid {
-  color: #53d480;
-
-}
-
-.landing-text {
-  color: #56ff91;
-  font-size: 2rem;
 }
 
 .ui.borderless.inverted.top.attached.menu {

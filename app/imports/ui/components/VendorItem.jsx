@@ -7,15 +7,12 @@ import { withRouter, Link } from 'react-router-dom';
 class VendorItem extends React.Component {
   render() {
     return (
-        <Card centered color='green'>
+        <Card className="card-size" centered color='green'>
           <Grid columns={1}>
             <Grid.Row>
               <Image
-                  size='medium'
+                  className="card-img"
                   src={this.props.vendor.photo}
-                  width="200"
-                  height="200"
-                  // fluid
                   centered/>
             </Grid.Row>
             <Grid.Row>
@@ -33,8 +30,8 @@ class VendorItem extends React.Component {
                 <Grid.Row>
                   <Grid.Column>
                     <Card.Meta>
-                      <p>Rating: {this.props.vendor.rating}</p>
-                      <p>Campus Location: {this.props.vendor.campusLocation}</p>
+                      <p className="card-meta">Rating: {this.props.vendor.rating}</p>
+                      <p className="card-meta">Campus Location: {this.props.vendor.campusLocation}</p>
                     </Card.Meta>
                   </Grid.Column>
                 </Grid.Row>
@@ -46,14 +43,14 @@ class VendorItem extends React.Component {
                 <Grid.Row>
                   <Card.Content>
                     <Card.Description>
-                      {this.props.vendor.description}
+                      <p className="card-desc">{this.props.vendor.description}</p>
                     </Card.Description>
                   </Card.Content>
                 </Grid.Row>
                 <Divider></Divider>
                 <Grid.Row>
                   <Card.Content extra>
-                    {this.props.vendor.address}
+                    <p className="card-address">{this.props.vendor.address}</p>
                   </Card.Content>
                 </Grid.Row>
               </Grid.Column>
