@@ -9,9 +9,8 @@ function gatherInfo(vendorInfo) {
   return sortedInfo;
 
 }
-let hasInitializedVendors = 0;
 
-let importedVendorData = [];
+let importedVendorData = { };
 
 let source;
 
@@ -42,12 +41,9 @@ function SearchExampleStandard(vendorDataImport) {
   console.log('vendorDataImport');
   console.log(vendorDataImport);
   // TEST CODE
-  if (this.hasInitializedVendors === 0) {
-    for (let i = 0; i < vendorDataImport.length; i++) {
-      importedVendorData[i] = vendorDataImport[i];
-      console.log(vendorDataImport[i]);
-    }
-    this.hasInitializedVendors = 1;
+  for (let i = 0; i < vendorDataImport.length; i++) {
+    importedVendorData[i] = vendorDataImport[i].slice();
+    console.log(`transferred vendor data ${i}: ${importedVendorData[i]}`);
   }
   // TEST CODE
   console.log('importedVendorData');
