@@ -30,7 +30,7 @@ class AboutUs extends React.Component {
                       <Card.Description>
                         I am currently in my senior year at the University of Hawaii at Manoa and am double majoring in Biology and Computer
                          Science.
-                        I am planning on getting into mobile development. You can learn more about me here!
+                        I am planning on getting into mobile development.
                       </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
@@ -41,7 +41,7 @@ class AboutUs extends React.Component {
                     <Card.Content>
                       <Card.Header>Adrian Tam</Card.Header>
                       <Card.Description>
-                        I am currently enrolled at the University of Hawaii at Manoa and am majoring in Computer Science. You can learn more about me here!
+                        I am currently enrolled at the University of Hawaii at Manoa and am majoring in Computer Science.
                       </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
