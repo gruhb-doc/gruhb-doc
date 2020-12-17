@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
 import { Search } from 'semantic-ui-react';
-import {Vendors} from '../../api/vendor/Vendor';
 
 function gatherInfo(vendorInfo) {
   const sortedInfo = { title: vendorInfo.name, description: vendorInfo.description, image: vendorInfo.photo, price: vendorInfo.cost };
@@ -10,8 +9,9 @@ function gatherInfo(vendorInfo) {
   return sortedInfo;
 
 }
+let hasInitializedVendors = 0;
 
-let importedVendorData;
+let importedVendorData = [];
 
 let source;
 
@@ -42,7 +42,13 @@ function SearchExampleStandard(vendorDataImport) {
   console.log('vendorDataImport');
   console.log(vendorDataImport);
   // TEST CODE
-  this.importedVendorData = vendorDataImport;
+  if (this.hasInitializedVendors === 0) {
+    for (let i = 0; i < vendorDataImport.length; i++) {
+      importedVendorData[i] = vendorDataImport[i];
+      console.log(vendorDataImport[i]);
+    }
+    this.hasInitializedVendors = 1;
+  }
   // TEST CODE
   console.log('importedVendorData');
   console.log(importedVendorData);
